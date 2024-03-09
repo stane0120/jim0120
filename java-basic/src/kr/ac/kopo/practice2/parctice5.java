@@ -22,7 +22,11 @@ public class parctice5 {
 				}
 			}
 }
+		} catch (NumberFormatException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 }
-}
+	} 
+
 
