@@ -2,27 +2,27 @@ package kr.ac.kopo.practice3;
 
 public class R4 {
 	public static void main(String[] args) {
-		int Depth = 100; // 우물의 깊이
-		int Position = 0; // 달팽이의 현재 위치
-		int Speed = 5; // 달팽이의 기어오르는 속도
-		int Up = 1; // 50m 미만에서 미끌어지는 속도
-		int Down = 2; // 50m 이상에서 미끌어지는 속도
-		int hours = 1; // 경과한 시간
+		int depth = 100; 
+		int position = 0;
+		int speed = 5; 
+		int up = 1;
+		int down = 2; 
+		int hours = 1;
 
-		// 달팽이가 우물을 탈출하는 동안
-		for (; Position < Depth; hours++) {
-			Position += Speed;
 
-			if (Position < 50) {
-				Position -= Up;
+		for (; position < depth; hours++) {
+			position += speed;
+
+			if (position < 50) {
+				position -= up;
 			} else {
-				Position -= Down;
+				position -= down;
 			}
 
-			if (Position < 0) {
-				Position = 0;
+			if (position < 0) {
+				position = 0;
 			}
-			System.out.printf("[%d시간후] 달팽이가 올라간 총 높이 : %dm\n", hours, Position);
+			System.out.printf("[%d시간후] 달팽이가 올라간 총 높이 : %dm\n", hours, position);
 		}
 	}
 }
