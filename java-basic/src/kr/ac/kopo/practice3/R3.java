@@ -27,7 +27,7 @@ public class R3 {
 				for (int i = b; i <= a; i++) {
 					System.out.println("===" + i + "단" + "===");
 					for (int j = 1; j <= 9; j++) {
-					System.out.printf("%d * %d = %d\n", i, j, i * j);
+						System.out.printf("%d * %d = %d\n", i, j, i * j);
 
 					}
 					System.out.println();

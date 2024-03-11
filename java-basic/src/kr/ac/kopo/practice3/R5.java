@@ -1,6 +1,6 @@
 package kr.ac.kopo.practice3;
 
-import java.util.Random;
+import java.util.Random; 
 import java.util.Scanner;
 
 public class R5 {
@@ -34,5 +34,3 @@ public class R5 {
 		}
 	}
 }
-
-

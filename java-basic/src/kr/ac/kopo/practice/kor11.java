@@ -11,24 +11,19 @@ public class kor11 {
 			int b = sc.nextInt();
 			int c = sc.nextInt();
 			int d = sc.nextInt();
-			
+
 			int max = 0;
-			
-			if(a > b && a > c && a > d) {
+
+			if (a > b && a > c && a > d) {
 				max = a;
 			} else if (b > a && b > c && b > d) {
 				max = b;
 			} else if (c > a && c > b && c > d) {
-				max = c; 
-			} else if (d > a && d > b && d > c){
+				max = c;
+			} else if (d > a && d > b && d > c) {
 				max = d;
 			}
-			
-			
-			
 			System.out.printf("가장 큰 수 : %d", max);
 		}
-		
 	}
-
 }

@@ -8,14 +8,13 @@ public class kor4 {
 			System.out.print("정수를 입력하세요 : ");
 			int a = sc.nextInt();
 			sc.nextLine();
-			
+
 			System.out.print("나눌 수를 입력하세요 : ");
 			int b = sc.nextInt();
 			sc.nextLine();
-			
-			System.out.printf("몫 : %d\n", a / b );
+
+			System.out.printf("몫 : %d\n", a / b);
 			System.out.printf("나머지 : %d", a % b);
 		}
 	}
-
 }
