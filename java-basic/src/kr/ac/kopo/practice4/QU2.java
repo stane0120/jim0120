@@ -1,0 +1,15 @@
+package kr.ac.kopo.practice4;
+
+import java.util.Random;
+
+public class QU2 {
+	public static void main(String[] args) {
+		Random ran = new Random();
+
+		System.out.println("< PRINT >");
+		for (int i = 0; i < 5; i++) {
+			int num = ran.nextInt(100);
+			System.out.print(num + " ");
+		}
+	}
+}
