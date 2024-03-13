@@ -45,5 +45,5 @@ public class QU3 {
 			System.out.println("총점 : " + total + "점");
 			System.out.println("평균 : " + String.format("%.2f", (double) total / (5)) + "점");
 		}
+		}
 	}
-}
