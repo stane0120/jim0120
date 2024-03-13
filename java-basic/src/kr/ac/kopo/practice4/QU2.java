@@ -11,5 +11,14 @@ public class QU2 {
 			int num = ran.nextInt(100);
 			System.out.print(num + " ");
 		}
+		System.out.println();
+
+		System.out.println("< REVERSE >");
+		for (int i = 5; i > 0; i--) {
+			int num = ran.nextInt(100);
+			{
+				System.out.print(num + " ");
+			}
+		}
 	}
 }
