@@ -26,10 +26,12 @@ public class HandphoneMain {
 		
 		Handphone[] hpArr = {hp, hp2, hp3};
 		
+		for(Handphone p : hpArr) {
+			System.out.println("소유주명 : " + p.name);
+		}
+		
 		for(int i = 0; i < hpArr.length; i++) {
-			System.out.println("소유주명 : " + hpArr[i].name);
-			System.out.println("핸드폰 : " + hpArr[i].phone);
-			System.out.println("회사이름 : " + hpArr[i].company);
+			System.out.println("소유주명 : " + hpArr[i].name + " 핸드폰 : " + hpArr[i].phone + " 회사이름 : " + hpArr[i].company);
 		}
 	}
 }
