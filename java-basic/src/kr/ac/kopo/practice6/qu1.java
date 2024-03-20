@@ -58,15 +58,16 @@ public class qu1 {
 	}
 
 	private static int[] getUserInput() {
-		Scanner scanner = new Scanner(System.in);
-		String input = scanner.nextLine().trim();
-		int[] numbers = new int[3];
+		try (Scanner scanner = new Scanner(System.in)) {
+			String input = scanner.nextLine().trim();
+			int[] numbers = new int[3];
 
-		for (int i = 0; i < 3; i++) {
-			numbers[i] = Character.getNumericValue(input.charAt(i));
+			for (int i = 0; i < 3; i++) {
+				numbers[i] = Character.getNumericValue(input.charAt(i));
+			}
+
+			return numbers;
 		}
-
-		return numbers;
 	}
 
 	private static boolean containsNumber(int[] array, int number) {

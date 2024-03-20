@@ -1,35 +1,29 @@
 package kr.ac.kopo.day07;
 
-import java.util.Random;
+import java.util.Scanner;
 
 public class practice {
-	public static void main(String[] args) {
-		
-		Random r = new Random();
-		int number = r.nextInt(101) + 20;
-		
-		System.out.println("< 1 ~ " + number + " 369게임 >");
-	    for(int i = 1; i <= number; i++) {
-	    	System.out.print(i + "\t");
-	    	
-	    	int n1 = i % 10;
-	    	int n10 = i % 100 / 10;
-	    	
-	    	if(n1 == 3 || n1 == 6 || n1 == 9 ) {
-	    		System.out.print("짝");
-	    	}
-	    	if(n10 != 0 && n10 % 3 == 0 ){
-	    		System.out.print("짝");
-	    	}
-	    	if(i % 10 == 0) {
-	    		n10 = i / 10;
-	    		while(n10-- > 0)
-	    			System.out.print('뽀');
-	    		System.out.print("숑");
-	    	}
 
-	    	
-	    	System.out.println();
-	    }
+	static int getSum(int a, int b) {
+		int sum = 0;
+		while (a <= b) {
+			sum = sum + a++;
+		}
+		return sum;
+	}
+
+	public static void main(String[] args) {
+
+		try (Scanner sc = new Scanner(System.in)) {
+			System.out.print("첫번째 값을 입력해주세요 : ");
+			int a = sc.nextInt();
+
+			System.out.print("두번째 값을 입력해주세요 : ");
+			int b = sc.nextInt();
+
+			int total = getSum(a, b);
+
+			System.out.printf("%d ~ %d 사이의 총합 : %d\n", a, b, total);
+		}
 	}
 }
