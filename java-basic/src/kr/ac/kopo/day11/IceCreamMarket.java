@@ -8,6 +8,7 @@ public class IceCreamMarket {
 	Scanner sc = new Scanner(System.in);
 	
 	public int scanInt() {
+		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 			int num = sc.nextInt();
 			sc.nextLine();

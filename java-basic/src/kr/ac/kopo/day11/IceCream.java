@@ -20,7 +20,7 @@ public class IceCream {
         return this.price;
     }
 
-    public void serName(String name){
+    public void setName(String name){
     	this.name = name;
     }
 }
