@@ -2,6 +2,7 @@ package kr.ac.kopo.day13;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.IOException;
 import java.util.Random;
 
 public class ExceptionMain05 {
@@ -9,7 +10,13 @@ public class ExceptionMain05 {
 	public static void a() {
 		
 		try {
-		FileReader fr = new FileReader("a.txt");
+		try (FileReader fr = new FileReader("a.txt")) {
+		} catch (FileNotFoundException e) {
+			throw e;
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		} catch(FileNotFoundException fnfe) {
 			fnfe.printStackTrace();
 		}

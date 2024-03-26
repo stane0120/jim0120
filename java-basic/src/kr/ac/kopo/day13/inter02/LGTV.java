@@ -2,6 +2,7 @@ package kr.ac.kopo.day13.inter02;
 
 public class LGTV implements TV {
 	
+	@SuppressWarnings("unused")
 	private boolean power;
 	private int channelNo;
 	private int volumeSize;

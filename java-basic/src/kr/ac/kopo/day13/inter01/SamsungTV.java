@@ -2,6 +2,7 @@ package kr.ac.kopo.day13.inter01;
 
 public class SamsungTV {
 
+	@SuppressWarnings("unused")
 	private boolean power;
 	
 	public SamsungTV() {

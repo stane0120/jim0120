@@ -2,7 +2,9 @@ package kr.ac.kopo.day12;
 
 public class Child02 extends Parent {
 	
+	@SuppressWarnings("unused")
 	private String name;
+	@SuppressWarnings("unused")
 	private int age;
 	
 	public Child02() {

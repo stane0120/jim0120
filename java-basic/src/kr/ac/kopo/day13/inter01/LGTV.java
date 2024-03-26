@@ -2,8 +2,11 @@ package kr.ac.kopo.day13.inter01;
 
 public class LGTV {
 
+	@SuppressWarnings("unused")
 	private boolean power;
+	@SuppressWarnings("unused")
 	private int channelNo;
+	@SuppressWarnings("unused")
 	private int volumeUp;
 	
 	public LGTV() {

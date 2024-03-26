@@ -22,6 +22,7 @@ public class CastMain01 {
 	
 	public static void main(String[] args) {
 		
+		@SuppressWarnings("unused")
 		Parent obj = getObject();
 		
 		print(new Child01());
