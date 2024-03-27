@@ -2,8 +2,7 @@ package kr.ac.kopo.practice09;
 
 import java.util.Scanner;
 
-public class Q6 {
-
+public class Q03 {
 	public static void main(String[] args) {
 
 		try (Scanner sc = new Scanner(System.in)) {
@@ -12,13 +11,11 @@ public class Q6 {
 			if (a < 1 || a > 100) {
 				System.out.println("잘못 입력하셨습니다.");
 			} else {
-				for (int i = 0; i < a; i++) {
-
-					for (int j = 0; j < i; j++) {
+				for (int i = a; i >= 1; i--) {
+					for (int j = 2; j <= i; j++) {
 						System.out.print(" ");
 					}
-
-					for (int j = 0; j < 2 * (a - i) - 1; j++) {
+					for (int j = a; j >= i; j--) {
 						System.out.print("*");
 					}
 					System.out.println();

@@ -2,7 +2,7 @@ package kr.ac.kopo.practice09;
 
 import java.util.Scanner;
 
-public class Q7 {
+public class Q07 {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
 			int year = sc.nextInt();

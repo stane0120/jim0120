@@ -2,7 +2,7 @@ package kr.ac.kopo.practice01;
 
 import java.util.Scanner;
 
-public class kor2 {
+public class kor02 {
 	public static void main(String[] args) {
 
 		try (Scanner sc = new Scanner(System.in)) {

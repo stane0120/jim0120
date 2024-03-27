@@ -2,7 +2,7 @@ package kr.ac.kopo.practice01;
 
 import java.util.Scanner;
 
-public class kor8 {
+public class kor08 {
 	public static void main(String[] args) {
 		try (Scanner sc = new Scanner(System.in)) {
 			System.out.print("물건값을 입력 : ");

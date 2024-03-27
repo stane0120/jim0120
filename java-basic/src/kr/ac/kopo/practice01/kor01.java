@@ -1,6 +1,6 @@
 package kr.ac.kopo.practice01;
 
-public class kor1 {
+public class kor01 {
 	public static void main(String[] args) {
 
 		System.out.println("영문자 모음의 아스키 코드 값");

@@ -2,7 +2,7 @@ package kr.ac.kopo.practice09;
 
 import java.util.Scanner;
 
-public class Q9 {
+public class Q09 {
 	public static void main(String[] args) {
 		try (Scanner sc = new Scanner(System.in)) {
 			int sum = 0;
