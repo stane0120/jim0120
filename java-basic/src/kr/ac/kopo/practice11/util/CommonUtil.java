@@ -4,5 +4,6 @@ public class CommonUtil {
 	int am() { return 1; }
 	public int bm() { return 1; }
 	protected int cm() {return 1; }
+	@SuppressWarnings("unused")
 	private int dm() { return 1; }
 }
