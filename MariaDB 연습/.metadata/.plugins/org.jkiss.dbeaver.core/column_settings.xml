@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+	<item id="MySQLPrivilegesEditor">
+		<column name="Privilege" visible="true" order="0" width="106"/>
+		<column name="Enabled" visible="true" order="1" width="100"/>
+		<column name="Description" visible="true" order="2" width="294"/>
+	</item>
+	<item id="NodeList/DBNProjectDatabases/DBNBookmarkFolder/DBNDiagramFolder/DBNResource">
+		<column name="이름" visible="true" order="0" width="100"/>
+		<column name="경로" visible="true" order="1" width="123"/>
+		<column name="크기" visible="true" order="2" width="100"/>
+		<column name="최종 수정" visible="true" order="3" width="100"/>
+	</item>
+	<item id="NodeList/MySQLUser">
+		<column name="User name" visible="true" order="0" width="148"/>
+		<column name="Host mask" visible="true" order="1" width="103"/>
+		<column name="SSL type" visible="true" order="2" width="100"/>
+		<column name="SSL cipher" visible="true" order="3" width="100"/>
+		<column name="Max questions" visible="true" order="4" width="100"/>
+		<column name="Max updates" visible="true" order="5" width="100"/>
+		<column name="Max connections" visible="true" order="6" width="106"/>
+		<column name="Max user connections" visible="true" order="7" width="132"/>
+	</item>
+	<item id="NodeList/SQLiteTable">
+		<column name="테이블명" visible="true" order="0" width="100"/>
+		<column name="테이블 타입" visible="true" order="1" width="100"/>
+		<column name="테이블 설명" visible="true" order="2" width="100"/>
+	</item>
+</items>

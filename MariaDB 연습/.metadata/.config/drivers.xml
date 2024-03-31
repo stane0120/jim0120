@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drivers>
+	<provider id="mysql">
+		<driver id="mariaDB" categories="sql" name="MariaDB" class="org.mariadb.jdbc.Driver" url="jdbc:mariadb://{host}[:{port}]/[{database}]" port="3306" defaultUser="root" description="MariaDB JDBC driver" custom="false">
+			<library type="jar" path="maven:/org.mariadb.jdbc:mariadb-java-client:RELEASE" custom="false" version="3.3.2">
+				<file id="org.mariadb.jdbc:mariadb-java-client:RELEASE" version="3.3.2" path="${drivers_home}\maven\maven-central\org.mariadb.jdbc\mariadb-java-client-3.3.2.jar"/>
+				<file id="com.github.waffle:waffle-jna:3.3.0" version="3.3.0" path="${drivers_home}\maven\maven-central\com.github.waffle\waffle-jna-3.3.0.jar"/>
+				<file id="net.java.dev.jna:jna:5.13.0" version="5.13.0" path="${drivers_home}\maven\maven-central\net.java.dev.jna\jna-5.13.0.jar"/>
+				<file id="net.java.dev.jna:jna-platform:5.13.0" version="5.13.0" path="${drivers_home}\maven\maven-central\net.java.dev.jna\jna-platform-5.13.0.jar"/>
+				<file id="org.slf4j:jcl-over-slf4j:2.0.7" version="2.0.7" path="${drivers_home}\maven\maven-central\org.slf4j\jcl-over-slf4j-2.0.7.jar"/>
+				<file id="org.slf4j:slf4j-api:2.0.7" version="2.0.7" path="${drivers_home}\maven\maven-central\org.slf4j\slf4j-api-2.0.7.jar"/>
+				<file id="com.github.ben-manes.caffeine:caffeine:2.9.3" version="2.9.3" path="${drivers_home}\maven\maven-central\com.github.ben-manes.caffeine\caffeine-2.9.3.jar"/>
+				<file id="org.checkerframework:checker-qual:3.19.0" version="3.19.0" path="${drivers_home}\maven\maven-central\org.checkerframework\checker-qual-3.19.0.jar"/>
+				<file id="com.google.errorprone:error_prone_annotations:2.10.0" version="2.10.0" path="${drivers_home}\maven\maven-central\com.google.errorprone\error_prone_annotations-2.10.0.jar"/>
+				<file id="org.checkerframework:checker-qual:3.32.0" version="3.32.0" path="${drivers_home}\maven\maven-central\org.checkerframework\checker-qual-3.32.0.jar"/>
+			</library>
+			<library type="license" path="https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt" custom="false">
+				<file id="https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt" path="${drivers_home}\remote\licenses\old-licenses\lgpl-2.1.txt"/>
+			</library>
+		</driver>
+	</provider>
+	<provider id="sqlite">
+		<driver id="sqlite_jdbc" categories="sql,embedded" name="SQLite" class="org.sqlite.JDBC" url="jdbc:sqlite:{file}" description="SQLite JDBC driver" custom="false" embedded="true" anonymous="true">
+			<library type="jar" path="maven:/org.xerial:sqlite-jdbc:RELEASE" custom="false">
+				<file id="org.xerial:sqlite-jdbc:RELEASE" version="3.45.2.0" path="${drivers_home}\maven\maven-central\org.xerial\sqlite-jdbc-3.45.2.0.jar"/>
+				<file id="org.slf4j:slf4j-api:1.7.36" version="1.7.36" path="${drivers_home}\maven\maven-central\org.slf4j\slf4j-api-1.7.36.jar"/>
+			</library>
+			<library type="license" path="https://www.apache.org/licenses/LICENSE-2.0.txt" custom="false">
+				<file id="https://www.apache.org/licenses/LICENSE-2.0.txt" path="${drivers_home}\remote\licenses\LICENSE-2.0.txt"/>
+			</library>
+		</driver>
+	</provider>
+</drivers>
