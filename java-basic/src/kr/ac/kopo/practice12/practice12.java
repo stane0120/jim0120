@@ -4,19 +4,27 @@ import java.util.Scanner;
 
 public class practice12 {
 	   public static void main(String[] args) {
-	        try (Scanner sc = new Scanner(System.in)) {
-				int N = sc.nextInt();
+	       Scanner sc = new Scanner(System.in);
+	        
+	        int N = sc.nextInt();
+	        
+	        int[] dp = new int[N + 1];
+	        
+	        if (N == 1) {
+	            System.out.println(2);
+	            return;
+	        }
+	        
 
-				int[] dp = new int[N + 1];
-				dp[0] = 1; 
+	        dp[1] = 2; 
+	        
 
-				for (int i = 1; i <= N; i++) {
-				    for (int j = 1; j <= i; j++) {
-				        dp[i] += dp[i - j]; 
-				    }
-				}
-
-				System.out.println(dp[N]);
-			}
+	        for (int i = 2; i <= N; i++) {
+	            dp[i] = dp[i - 1] * 2; 
+	        }
+	        
+	        System.out.println(dp[N]);
+	        
+	        sc.close();
 	    }
 	}

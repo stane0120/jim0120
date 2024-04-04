@@ -1,85 +1,27 @@
 package kr.ac.kopo.practice12;
 
-import java.util.HashSet;
 import java.util.Scanner;
-import java.util.Set;
 
 public class practice10 {
 
     public static void main(String[] args) {
-        try (Scanner sc = new Scanner(System.in)) {
-			int n = sc.nextInt();
+        Scanner scanner = new Scanner(System.in);
 
-			System.out.println(generatePoints(n));
-		}
-    }
-    
+        // N 입력 받기
+        int N = scanner.nextInt();
 
-    public static int generatePoints(int n) {
+        // 초기 상태에서 정사각형의 갯수는 4개
+        int squares = 4;
 
-        Set<Point> points = new HashSet<>();
-        points.add(new Point(0, 0));
-
-
-        for (int i = 0; i < n; i++) {
-            Set<Point> newPoints = new HashSet<>();
-
-
-            for (Point point : points) {
-                int x = point.getX();
-                int y = point.getY();
-                newPoints.add(new Point(x - 1, y - 1));
-                newPoints.add(new Point(x - 1, y));
-                newPoints.add(new Point(x - 1, y + 1));
-                newPoints.add(new Point(x, y - 1));
-                newPoints.add(new Point(x, y));
-                newPoints.add(new Point(x, y + 1));
-                newPoints.add(new Point(x + 1, y - 1));
-                newPoints.add(new Point(x + 1, y));
-                newPoints.add(new Point(x + 1, y + 1));
-            }
-
-
-            points.addAll(newPoints);
+        // N번의 과정을 반복하여 정사각형의 갯수 구하기
+        for (int i = 1; i < N; i++) {
+            // 새로운 정사각형의 갯수는 이전 정사각형의 3배 + 1
+            squares = squares * 3 + 1;
         }
 
+        // 결과 출력
+        System.out.println(squares);
 
-        return points.size();
-    }
-
- 
-    static class Point {
-        private final int x;
-        private final int y;
-
-
-        public Point(int x, int y) {
-            this.x = x;
-            this.y = y;
-        }
-
-
-        public int getX() {
-            return x;
-        }
-
-
-        public int getY() {
-            return y;
-        }
-
-        @Override
-        public boolean equals(Object o) {
-            if (this == o) return true;
-            if (o == null || getClass() != o.getClass()) return false;
-            Point point = (Point) o;
-            return x == point.x && y == point.y;
-        }
-
-
-        @Override
-        public int hashCode() {
-            return 31 * x + y;
-        }
+        scanner.close();
     }
 }

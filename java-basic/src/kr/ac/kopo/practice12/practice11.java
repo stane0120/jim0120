@@ -6,12 +6,17 @@ public class practice11 {
 
     public static void main(String[] args) {
     	
-            try (Scanner sc = new Scanner(System.in)) {
-				int N = sc.nextInt();
+        Scanner scanner = new Scanner(System.in);
 
-				long combinations = (long) Math.pow(N, 2);
+        // N 입력 받기
+        int N = scanner.nextInt();
 
-				System.out.println(combinations);
-			}
-        }
+        // 서로 다른 색상인 조합의 가짓수 구하기
+        long combinations = (long) N * (N - 1);
+
+        // 결과 출력
+        System.out.println(combinations);
+
+        scanner.close();
     }
+}
