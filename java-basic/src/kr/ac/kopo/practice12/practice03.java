@@ -4,32 +4,25 @@ import java.util.Scanner;
 
 public class practice03 {
     public static void main(String[] args) {
+    	
         try (Scanner sc = new Scanner(System.in)) {
-			int x1 = sc.nextInt();
-			int y1 = sc.nextInt();
-			int x2 = sc.nextInt();
-			int y2 = sc.nextInt();
-			int x3 = sc.nextInt();
-			int y3 = sc.nextInt();
+			int N = sc.nextInt();
 
-			int x4, y4;
-			if (x1 == x2) {
-			    x4 = x3;
-			} else if (x1 == x3) {
-			    x4 = x2;
+			if(N < 1) {
+			    System.out.println("N은 1 이상의 정수이어야 합니다.");
 			} else {
-			    x4 = x1;
+			    for (int i = 0; i < 2 * N - 1; i++) {
+   
+			        for (int j = 0; j < Math.abs(N - 1 - i); j++) {
+			            System.out.print(" ");
+			        }
+   
+			        for (int j = 0; j < 2 * Math.min(i + 1, 2 * N - 1 - i) - 1; j++) {
+			            System.out.print("*");
+			        }
+			        System.out.println();
+			    }
 			}
-
-			if (y1 == y2) {
-			    y4 = y3;
-			} else if (y1 == y3) {
-			    y4 = y2;
-			} else {
-			    y4 = y1;
-			}
-
-			System.out.println(x4 + " " + y4);
 		}
     }
 }

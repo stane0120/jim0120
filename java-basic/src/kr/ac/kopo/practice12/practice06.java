@@ -6,17 +6,41 @@ public class practice06 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int num1 = scanner.nextInt();
-        int num2 = scanner.nextInt();
+        while (true) {
+            int a = scanner.nextInt();
+            int b = scanner.nextInt();
+            int c = scanner.nextInt();
 
-        int product = num1 * num2;
 
-        String result = String.valueOf(product);
+            if (a == 0 && b == 0 && c == 0) {
+                break;
+            }
 
-        for (int i = 0; i < 4; i++) {
-            System.out.println(result.charAt(i + 2));
+
+            if (isValidTriangle(a, b, c)) {
+
+                if (a == b && b == c) {
+                    System.out.println("Equilateral");
+                } else if (a == b || b == c || c == a) {
+                    System.out.println("Isosceles");
+                } else {
+                    System.out.println("Scalene");
+                }
+            } else {
+                System.out.println("Invalid");
+            }
         }
 
         scanner.close();
+    }
+
+
+    private static boolean isValidTriangle(int a, int b, int c) {
+
+        int maxSide = Math.max(Math.max(a, b), c);
+
+        int sumOfOtherTwoSides = a + b + c - maxSide;
+
+        return maxSide < sumOfOtherTwoSides;
     }
 }

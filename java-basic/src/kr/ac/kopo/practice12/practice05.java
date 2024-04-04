@@ -1,27 +1,35 @@
 package kr.ac.kopo.practice12;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class practice05 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        try (Scanner sc = new Scanner(System.in)) {
+			int x1 = sc.nextInt();
+			int y1 = sc.nextInt();
+			int x2 = sc.nextInt();
+			int y2 = sc.nextInt();
+			int x3 = sc.nextInt();
+			int y3 = sc.nextInt();
 
-        int[] sides = new int[3];
-        for (int i = 0; i < 3; i++) {
-            sides[i] = scanner.nextInt();
-        }
+			int x4, y4;
+			if (x1 == x2) {
+			    x4 = x3;
+			} else if (x1 == x3) {
+			    x4 = x2;
+			} else {
+			    x4 = x1;
+			}
 
-        Arrays.sort(sides);
-        int maxPerimeter = calculateMaxPerimeter(sides[0], sides[1], sides[2]);
-        System.out.println(maxPerimeter);
+			if (y1 == y2) {
+			    y4 = y3;
+			} else if (y1 == y3) {
+			    y4 = y2;
+			} else {
+			    y4 = y1;
+			}
 
-        scanner.close();
-    }
-
-
-    private static int calculateMaxPerimeter(int a, int b, int c) {
-  
-        return (a + b > c) ? a + b + c : 2 * (a + b) - 1;
+			System.out.println(x4 + " " + y4);
+		}
     }
 }

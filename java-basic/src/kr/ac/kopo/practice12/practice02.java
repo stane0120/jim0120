@@ -5,23 +5,10 @@ import java.util.Scanner;
 public class practice02 {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
-			String word = sc.nextLine();
+			int n = sc.nextInt();
 
-			if (isPalindrome(word)) {
-			    System.out.println("1");
-			} else {
-			    System.out.println("0");
-			}
+			long perimeter = 4L * (n + 1) - 4; 
+			System.out.println(perimeter);
 		}
-    }
-
-    public static boolean isPalindrome(String word) {
-        int length = word.length();
-        for (int i = 0; i < length / 2; i++) {
-            if (word.charAt(i) != word.charAt(length - i - 1)) {
-                return false;
-            }
-        }
-        return true;
     }
 }

@@ -4,43 +4,24 @@ import java.util.Scanner;
 
 public class practice04 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        try (Scanner sc = new Scanner(System.in)) {
+			String word = sc.nextLine();
 
-        while (true) {
-            int a = scanner.nextInt();
-            int b = scanner.nextInt();
-            int c = scanner.nextInt();
-
-
-            if (a == 0 && b == 0 && c == 0) {
-                break;
-            }
-
-
-            if (isValidTriangle(a, b, c)) {
-
-                if (a == b && b == c) {
-                    System.out.println("Equilateral");
-                } else if (a == b || b == c || c == a) {
-                    System.out.println("Isosceles");
-                } else {
-                    System.out.println("Scalene");
-                }
-            } else {
-                System.out.println("Invalid");
-            }
-        }
-
-        scanner.close();
+			if (isPalindrome(word)) {
+			    System.out.println("1");
+			} else {
+			    System.out.println("0");
+			}
+		}
     }
 
-
-    private static boolean isValidTriangle(int a, int b, int c) {
-
-        int maxSide = Math.max(Math.max(a, b), c);
-
-        int sumOfOtherTwoSides = a + b + c - maxSide;
-
-        return maxSide < sumOfOtherTwoSides;
+    public static boolean isPalindrome(String word) {
+        int length = word.length();
+        for (int i = 0; i < length / 2; i++) {
+            if (word.charAt(i) != word.charAt(length - i - 1)) {
+                return false;
+            }
+        }
+        return true;
     }
 }

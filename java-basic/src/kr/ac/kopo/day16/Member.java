@@ -9,6 +9,7 @@ import java.io.Serializable;
  		                       	s 선택  => toString() 오버라이딩
  */
 
+@SuppressWarnings("serial")
 public class Member implements Serializable { // 기본생성자
 
 	private String id;
