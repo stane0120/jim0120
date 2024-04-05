@@ -110,7 +110,7 @@ GROUP BY BRAND_CD,
          ELSE        '홀'
          END;
 
--- 1번
+-- CASE문 1번 문제
 SELECT OUTBOUND_DATE,
        TO_CHAR(OUTBOUND_DATE, 'DAY') AS DY, 
        INVOICE_NO,
@@ -130,6 +130,7 @@ GROUP BY OUTBOUND_DATE, INVOICE_NO, ORDER_NM,
        ELSE           '저온'
        END;
        
+-- CASE문 2번 문제       
 SELECT BRAND_CD, 
        INVOICE_NO,
        LINE_NO,
@@ -141,6 +142,7 @@ SELECT BRAND_CD,
        END AS GRADE
 FROM A_OUT_D;
 
+-- CASE문 적용 GROUP BY 1번 문제
 SELECT BRAND_CD,
        CASE TO_CHAR(SUBSTR(OUT_TYPE_DIV, 1, 2))
        WHEN 'M1' THEN '상온'
@@ -154,6 +156,7 @@ GROUP BY BRAND_CD,
          ELSE           '저온'
          END;
 
+-- CASE문 적용 GROUP BY 2번 문제
 SELECT BRAND_CD,
             CASE WHEN ORDER_QTY BETWEEN 1 AND 2 THEN '하'
             WHEN ORDER_QTY BETWEEN 3 AND 4 THEN '중'
@@ -167,6 +170,7 @@ GROUP BY BRAND_CD,
          ELSE '상'
          END;
          
+-- CASE문 적용 GROUP BY 3번 문제         
 SELECT CASE WHEN ROWNUM <= 2 THEN ROWNUM ELSE 3 END AS ITEM,
        CASE WHEN ROWNUM <= 2 THEN ITEM_CD ELSE 'etc' END AS ITEM1,
        SUM(ORDER_CNT) AS QTY
