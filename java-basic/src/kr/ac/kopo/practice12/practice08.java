@@ -4,10 +4,12 @@ import java.util.Scanner;
 
 public class practice08 {
     public static void main(String[] args) {
-    	 Scanner sc = new Scanner(System.in);
+    	 @SuppressWarnings("resource")
+		Scanner sc = new Scanner(System.in);
 
          int n = sc.nextInt();
-         int answer = 4;
+         @SuppressWarnings("unused")
+		int answer = 4;
 
          // 메모이제이션 테이블 생성
          int[] memo = new int[n + 1];

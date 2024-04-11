@@ -14,10 +14,12 @@ SELECT  DY, DY1,
             WHERE M1.OUTBOUND_DATE LIKE '2019-09%' 
             GROUP BY TO_CHAR(OUTBOUND_DATE, 'DAY'), M1.OUTBOUND_DATE
       ) M1
+        GROUP BY DY, DY1
         ORDER BY DY, DY1
 ) C1
 ORDER BY DY1
 ;
+
        
 -- 데이터 압축하기2 2번
 SELECT MAX(M1.SUM_QTY) AS MAX_QTY,
@@ -37,12 +39,7 @@ FROM (
 
 -- 데이터 압축하기2 3번
 
-SELECT ITEM_CD,
-       MAX_DATE,
-       OUTBOUND_DATE
-
 SELECT C1.ITEM_CD, 
-       C
        TO_DATE(SUBSTR(VAL, 5), 'YYYY-MM-DD') AS MAX_DATE,
        TO_CHAR(TO_NUMBER(SUBSTR(VAL, 1, 3)), '000') AS MAX_BATCH
 FROM (
