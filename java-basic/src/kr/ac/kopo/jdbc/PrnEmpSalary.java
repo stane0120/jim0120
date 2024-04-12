@@ -12,7 +12,8 @@ public class PrnEmpSalary {
 
     public static void main(String[] args) {
         
-        Scanner sc = new Scanner(System.in);
+        @SuppressWarnings("resource")
+		Scanner sc = new Scanner(System.in);
         System.out.print("금액을 입력 : ");
         String salary = sc.nextLine();
         

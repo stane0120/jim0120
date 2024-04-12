@@ -9,6 +9,7 @@ public class InsertMain02 {
 	
 	public static void main(String[] args) {
 		
+		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		System.out.print("아이디를 입력 : ");
 		String id = sc.nextLine();
