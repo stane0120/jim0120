@@ -17,6 +17,7 @@ public class BoardUI extends BaseUI{
 	@Override
 	public void execute() throws Exception {
 		while (true) {
+			IBoardUI ui = null;
 			int type = choiceMenu();
 			switch (type) {
 			case 1:
@@ -26,12 +27,10 @@ public class BoardUI extends BaseUI{
 				System.out.println("글번호 조회 서비스...");
 				break;
 			case 3:
-				AddUI add = new AddUI();
-				add.execute();
+				ui = new AddUI();
 				break;
 			case 4:
-				UpdateUI update = new UpdateUI();
-				update.execute();
+				ui = new UpdateUI();
 				break;
 			case 5:
 				System.out.println("게시글 삭제 조회 서비스...");
@@ -39,6 +38,12 @@ public class BoardUI extends BaseUI{
 			case 0:
 				System.out.println("프로그램 종료...");
 				System.exit(0);
+			}
+			
+			if(ui != null) {
+				ui.execute();
+			} else {
+				System.out.println("잘못선택하셨습니다.");
 			}
 		}
 	}
