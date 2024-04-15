@@ -38,39 +38,25 @@ FROM (
 ;
 
 -- 데이터 압축하기2 3번
-
 SELECT C1.ITEM_CD, 
-       TO_DATE(SUBSTR(VAL, 5), 'YYYY-MM-DD') AS MAX_DATE,
-       TO_CHAR(TO_NUMBER(SUBSTR(VAL, 1, 3)), '000') AS MAX_BATCH
-FROM (
-      SELECT M1.ITEM_CD,
-             
-             MAX(LPAD(OUTBOUND_BATCH, 3, '0') || '-' || TO_CHAR(OUTBOUND_DATE, 'YYYY-MM-DD')) AS VAL
+       SUBSTR(VAL, 4) AS MAX_DATE,
+       CASE SUBSTR(VAL, 1, 3) WHEN 'ZZZ' THEN '001' ELSE SUBSTR(VAL, 1, 3) END AS MAX_BATCH
       FROM (
-            SELECT D1.ITEM_CD, M1.OUTBOUND_DATE, M1.OUTBOUND_BATCH
-            FROM LO_OUT_M M1
-            JOIN LO_OUT_D D1 ON D1.INVOICE_NO = M1.INVOICE_NO
-            WHERE M1.OUTBOUND_DATE BETWEEN TO_DATE(TO_CHAR(TO_DATE(:OUT_DATE), 'YYYYMM') || '01', 'YYYYMMDD')
-                                    AND TO_DATE(:OUT_DATE, 'YYYY-MM-DD')
-            AND ITEM_CD IN ('30500', '73510')
-      ) M1
-      GROUP BY M1.ITEM_CD
-) C1
+            SELECT M1.ITEM_CD,
+                   MAX(OUT_BATCH || TO_CHAR(OUTBOUND_DATE, 'YYYY-MM-DD')) AS VAL
+            FROM (
+                  SELECT D1.ITEM_CD, M1.OUTBOUND_DATE, MAX(CASE OUTBOUND_BATCH WHEN '001' THEN 'ZZZ' ELSE OUTBOUND_BATCH END) AS OUT_BATCH
+                  FROM LO_OUT_M M1
+                  JOIN LO_OUT_D D1 ON D1.INVOICE_NO = M1.INVOICE_NO
+                  WHERE M1.OUTBOUND_DATE BETWEEN TO_DATE(TO_CHAR(TO_DATE(:OUT_DATE), 'YYYYMM') || '01', 'YYYYMMDD')
+                                          AND TO_DATE(:OUT_DATE, 'YYYY-MM-DD')
+                  AND ITEM_CD IN ('30500', '73510')
+                  GROUP BY ITEM_CD, OUTBOUND_DATE
+                  ORDER BY ITEM_CD, OUTBOUND_DATE
+            ) M1          
+            GROUP BY M1.ITEM_CD
+      ) C1
 ;
-
-
-
-
-SELECT *
-FROM LO_OUT_m;
-
-
-
-
-
-
-
-
 
 
 
