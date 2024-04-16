@@ -14,10 +14,16 @@ SELECT LINE_NO,
 -- 데이터 늘리기2 3번
 
 -- 데이터 늘리기2 4번
+SELECT OUT_DATE,
+       ITEM_CD,
+       ITEM_NM,
+       ORDER_QTY AS SUM_QTY
+FROM (
 SELECT CASE NO WHEN 3 THEN '합계' ELSE TO_CHAR(OUTBOUND_DATE) END AS OUT_DATE,
        CASE NO WHEN 1 THEN ITEM_CD WHEN 2 THEN '소계' ELSE '-' END AS ITEM_CD, 
        CASE NO WHEN 1 THEN ITEM_NM ELSE '-' END AS ITEM_NM,
-       SUM(SUM_QTY) AS ORDER_QTY
+       SUM(SUM_QTY) AS ORDER_QTY,
+       NO
 FROM (
       SELECT M1.OUTBOUND_DATE,
              D1.ITEM_CD,
@@ -33,8 +39,11 @@ FROM (
          JOIN CS_NO C1 ON C1.NO <= 3
          GROUP BY CASE NO WHEN 3 THEN '합계' ELSE TO_CHAR(OUTBOUND_DATE) END,
                   CASE NO WHEN 1 THEN ITEM_CD WHEN 2 THEN '소계' ELSE '-' END, 
-                  CASE NO WHEN 1 THEN ITEM_NM ELSE '-' END, NO
-         ORDER BY CASE :SORT WHEN '1' THEN TO_CHAR(OUT_DATE)
-                             WHEN '2' THEN ITEM_CD END
-; 
+                  CASE NO WHEN 1 THEN ITEM_NM ELSE '-' END, 
+                  NO
+) L1
+            ORDER BY (CASE WHEN NO = 3 THEN 3 ELSE 1 END) * (CASE WHEN :SORT = 1 THEN 1 ELSE -1 END)
+            , OUT_DATE
+            , NO * (CASE WHEN :SORT = 1 THEN 1 ELSE -1 END)
+            , ITEM_CD;
     
