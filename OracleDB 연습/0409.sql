@@ -1,5 +1,4 @@
 -- 데이터 압축하기2 1번
-
 SELECT DY, 
        TO_DATE(SUBSTR(VAL, 12), 'YYYY-MM-DD') AS OUT_DATE,
        TO_NUMBER(SUBSTR(VAL, 1, 10)) AS ORDER_QTY
@@ -19,8 +18,7 @@ SELECT  DY, DY1,
 ) C1
 ORDER BY DY1
 ;
-
-       
+  
 -- 데이터 압축하기2 2번
 SELECT MAX(M1.SUM_QTY) AS MAX_QTY,
        MIN(M1.SUM_QTY) AS MIN_QTY,

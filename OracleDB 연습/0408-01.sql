@@ -9,8 +9,7 @@ ORDER BY CASE :SORT_TYPE WHEN '1' THEN WORK_SEQ
                          END, INVOICE_NO;
                          
                          
--- 
-
+-- 변수별로 다르게 정렬하기
 SELECT INVOICE_NO, LINE_NO, ITEM_NM
   FROM LO_OUT_D
  WHERE INVOICE_NO = '346724704405'
