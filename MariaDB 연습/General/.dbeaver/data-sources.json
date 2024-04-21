@@ -18,7 +18,7 @@
 		"mariaDB-18e922ae3d1-217e126806b0cdd5": {
 			"provider": "mysql",
 			"driver": "mariaDB",
-			"name": "localhost",
+			"name": "MariaDB",
 			"save-password": true,
 			"configuration": {
 				"host": "localhost",
@@ -29,6 +29,48 @@
 				"type": "dev",
 				"closeIdleConnection": true,
 				"auth-model": "native"
+			}
+		},
+		"oracle_thin-18efe023481-4452fa8d0eef5bfd": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "오라클관리자",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "1521",
+				"database": "xe",
+				"url": "jdbc:oracle:thin:@//localhost:1521/xe",
+				"configurationType": "MANUAL",
+				"home": "C:\\tool\\bin\\DB\\dbhomeXE",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-sid-service@": "SERVICE"
+				},
+				"auth-model": "oracle_native"
+			}
+		},
+		"oracle_thin-18efe045107-3ea6d252b25dfd3e": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "jim0120",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "1521",
+				"database": "xe",
+				"url": "jdbc:oracle:thin:@//localhost:1521/xe",
+				"configurationType": "MANUAL",
+				"home": "C:\\tool\\bin\\DB\\dbhomeXE",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-sid-service@": "SERVICE"
+				},
+				"auth-model": "oracle_native"
 			}
 		}
 	},

@@ -1,18 +1,7 @@
-grant all on mysql.* to bjh@localhost;
+CREATE USER C##jim0120 IDENTIFIED BY 49568;
 
-CREATE TABLE EMP_01(
-    EMP_ID INT,
-    EMP_NAME VARCHAR(30),
-    DEPT_TITLE VARCHAR(20)
-);
+ALTER USER C##jim0120 account unlock;
 
-INSERT INTO EMP_01()
-VALUES(1234, '김뚜띠', '픽셀');
+GRANT resource,CONNECT TO C##jim0120;
 
-INSERT INTO EMP_01()
-VALUES(9506, '김진우', '픽셀');
-
-select * from EMP_01
-order by EMP_ID desc;
-
-commit;
+COMMIT;
