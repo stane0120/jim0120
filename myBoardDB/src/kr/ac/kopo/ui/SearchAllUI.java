@@ -1,7 +1,6 @@
 package kr.ac.kopo.ui;
 
 import java.util.List;
-
 import kr.ac.kopo.vo.BoardVO;
 
 public class SearchAllUI extends BaseUI {

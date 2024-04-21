@@ -1,9 +1,7 @@
 package em.ac.kr.ui;
 
 import java.util.List;
-
 import em.ac.kr.vo.EmailVO;
-import kr.ac.kopo.vo.BoardVO;
 
 public class GetUI implements IEmailUI {
 

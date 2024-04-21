@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <items>
+	<item id="ExecutionPlan/oracle_thin">
+		<column name="Operation" visible="true" order="0" width="163"/>
+		<column name="Object" visible="true" order="1" width="100"/>
+		<column name="Optimizer" visible="true" order="2" width="100"/>
+		<column name="Cost" visible="true" order="3" width="100"/>
+		<column name="Cardinality" visible="true" order="4" width="100"/>
+		<column name="Bytes" visible="true" order="5" width="100"/>
+	</item>
 	<item id="MySQLPrivilegesEditor">
 		<column name="Privilege" visible="true" order="0" width="106"/>
 		<column name="Enabled" visible="true" order="1" width="100"/>
@@ -21,9 +29,33 @@
 		<column name="Max connections" visible="true" order="6" width="106"/>
 		<column name="Max user connections" visible="true" order="7" width="132"/>
 	</item>
+	<item id="NodeList/OracleTableColumn">
+		<column name="컬럼명" visible="true" order="0" width="117"/>
+		<column name="#" visible="true" order="1" width="100"/>
+		<column name="Type" visible="true" order="2" width="100"/>
+		<column name="Type Mod" visible="true" order="3" width="100"/>
+		<column name="Not Null" visible="true" order="4" width="100"/>
+		<column name="디폴트" visible="true" order="5" width="100"/>
+		<column name="Comment" visible="true" order="6" width="100"/>
+	</item>
 	<item id="NodeList/SQLiteTable">
 		<column name="테이블명" visible="true" order="0" width="100"/>
 		<column name="테이블 타입" visible="true" order="1" width="100"/>
 		<column name="테이블 설명" visible="true" order="2" width="100"/>
+	</item>
+	<item id="PrefPageConfirmationsEditor">
+		<column name="Confirmation" visible="true" order="0" width="264"/>
+		<column name="Show dialog" visible="true" order="1" width="78"/>
+		<column name="Confirm" visible="true" order="2" width="57"/>
+		<column name="Group" visible="true" order="3" width="100"/>
+	</item>
+	<item id="Suggestion/NodeList/OracleTableColumn">
+		<column name="컬럼명" visible="true" order="0" width="117"/>
+		<column name="#" visible="true" order="1" width="27"/>
+		<column name="Type" visible="true" order="2" width="100"/>
+		<column name="Type Mod" visible="false" order="3" width="100"/>
+		<column name="Not Null" visible="true" order="3" width="59"/>
+		<column name="디폴트" visible="true" order="4" width="57"/>
+		<column name="Comment" visible="true" order="5" width="68"/>
 	</item>
 </items>

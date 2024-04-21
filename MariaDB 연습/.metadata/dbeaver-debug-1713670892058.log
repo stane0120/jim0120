@@ -1,0 +1,1762 @@
+2024-04-21 09:07:01.499 - DBeaver 24.0.1.202403241413 is starting
+2024-04-21 09:07:01.500 - OS: Windows 10 10.0 (amd64)
+2024-04-21 09:07:01.500 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
+2024-04-21 09:07:01.501 - Install path: 'C:\tool\bin\dbeaver'
+2024-04-21 09:07:01.501 - Instance path: 'file:/C:/java-workspace/MariaDB 연습/'
+2024-04-21 09:07:01.502 - Memory available 64Mb/1024Mb
+2024-04-21 09:07:01.511 - Create display
+2024-04-21 09:07:01.655 - Initialize desktop platform...
+2024-04-21 09:07:01.848 - BounceCastle bundle found. Use JCE provider BC
+> Start Core File Systems [org.eclipse.core.filesystem 1.10.200.v20231102-0934]
+> Start Core Resource Management [org.eclipse.core.resources 3.20.0.v20231102-0934]
+> Start 팀 지원 핵심 [org.eclipse.team.core 3.10.200.v20231106-1240]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.127.202403241413]
+2024-04-21 09:07:02.155 - Initialize base platform...
+2024-04-21 09:07:02.186 - Platform initialized (530ms)
+> Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.127.202403241413]
+2024-04-21 09:07:02.241 - Starting instance server at http://localhost:50012
+2024-04-21 09:07:02.258 - Run workbench
+> Start Eclipse e4 작업영역 SWT [org.eclipse.e4.ui.workbench.swt 0.17.200.v20231030-2045]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.4.200.v20231103-2012]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.200.v20231030-2045]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.200.v20231030-2045]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.200.v20231030-2045]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.200.v20231108-1058]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.36.0.v20231002-1156]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.200.v20230913-1724]
+> Start Eclipse e4 작업영역 기능 추가 [org.eclipse.e4.ui.workbench.addons.swt 1.5.200.v20231106-1600]
+> Start Eclipse e4 작업영역 SWT 렌더러 [org.eclipse.e4.ui.workbench.renderers.swt 0.16.200.v20231030-2045]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.100.v20231103-2012]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.200.v20231025-0632]
+2024-04-21 09:07:08.792 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.117.202403241413]
+2024-04-21 09:07:08.952 - Total database drivers: 112 (112)
+> Start 도움말 시스템 코어 [org.eclipse.help 3.10.200.v20231106-1240]
+2024-04-21 09:07:09.076 - Create actions
+2024-04-21 09:07:09.084 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2024-04-21 09:07:09.084 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2024-04-21 09:07:09.084 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+> Start jna [com.sun.jna 5.13.0.v20230812-1000]
+2024-04-21 09:07:10.116 - Initialize workbench window
+2024-04-21 09:07:10.121 - Finish initialization
+> Start 기본 문서 편집기 [org.eclipse.ui.editors 3.17.100.v20231106-1600]
+> Start 텍스트 편집기 프레임워크 [org.eclipse.ui.workbench.texteditor 3.17.200.v20231106-1600]
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.127.202403241413]
+Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui.editors.sql.internal.SQLEditorMessages
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.127.202403241413]
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.103.202403241413]
+> Start 핵심 비교 지원 [org.eclipse.compare.core 3.8.300.v20231106-1240]
+> Start 인터넷 연결 관리 사용자 인터페이스 [org.eclipse.ui.net 1.5.200.v20231106-1240]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.200.v20231106-1240]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.164.202403241413]
+> Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.133.202403241413]
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.14.100.202311222042]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.16.0.202311222042]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.87.202403241413]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.87.202403241413]
+> Start DBeaver UI Editors - Connections [org.jkiss.dbeaver.ui.editors.connection 1.0.118.202403241413]
+> Start 콘솔 [org.eclipse.ui.console 3.13.100.v20230914-0751]
+> Start 디버그 핵심 [org.eclipse.debug.core 3.21.200.v20231021-1513]
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.22.202403241413]
+2024-04-21 09:07:12.907 - Connect with 'localhost' (mariaDB-18e922ae3d1-217e126806b0cdd5)
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.20.202403241413]
+> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.212.202403241413]
+2024-04-21 09:07:12.944 - Execution context opened (localhost; Main; 0)
+> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.151.202403241413]
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+2024-04-21 09:07:13.136 - Execution context opened (localhost; Metadata; 1)
+2024-04-21 09:07:13.184 - Charset 'null' not found.
+2024-04-21 09:07:13.184 - Charset 'null' not found.
+2024-04-21 09:07:13.185 - Charset 'null' not found.
+2024-04-21 09:07:13.186 - Charset 'null' not found.
+2024-04-21 09:07:13.186 - Charset 'null' not found.
+2024-04-21 09:07:13.187 - Charset 'null' not found.
+2024-04-21 09:07:13.187 - Charset 'null' not found.
+2024-04-21 09:07:13.188 - Charset 'null' not found.
+2024-04-21 09:07:13.188 - Charset 'null' not found.
+2024-04-21 09:07:13.188 - Charset 'null' not found.
+2024-04-21 09:07:13.189 - Charset 'null' not found.
+2024-04-21 09:07:13.189 - Charset 'null' not found.
+2024-04-21 09:07:13.190 - Charset 'null' not found.
+2024-04-21 09:07:13.190 - Charset 'null' not found.
+2024-04-21 09:07:13.191 - Charset 'null' not found.
+2024-04-21 09:07:13.191 - Charset 'null' not found.
+2024-04-21 09:07:13.192 - Charset 'null' not found.
+2024-04-21 09:07:13.192 - Charset 'null' not found.
+2024-04-21 09:07:13.193 - Charset 'null' not found.
+2024-04-21 09:07:13.193 - Charset 'null' not found.
+2024-04-21 09:07:13.194 - Charset 'null' not found.
+2024-04-21 09:07:13.195 - Charset 'null' not found.
+2024-04-21 09:07:13.195 - Charset 'null' not found.
+2024-04-21 09:07:13.196 - Charset 'null' not found.
+2024-04-21 09:07:13.196 - Charset 'null' not found.
+2024-04-21 09:07:13.197 - Charset 'null' not found.
+2024-04-21 09:07:13.197 - Charset 'null' not found.
+2024-04-21 09:07:13.198 - Charset 'null' not found.
+2024-04-21 09:07:13.198 - Charset 'null' not found.
+2024-04-21 09:07:13.199 - Charset 'null' not found.
+2024-04-21 09:07:13.199 - Charset 'null' not found.
+2024-04-21 09:07:13.200 - Charset 'null' not found.
+2024-04-21 09:07:13.200 - Charset 'null' not found.
+2024-04-21 09:07:13.201 - Charset 'null' not found.
+2024-04-21 09:07:13.201 - Charset 'null' not found.
+2024-04-21 09:07:13.202 - Charset 'null' not found.
+2024-04-21 09:07:13.202 - Charset 'null' not found.
+2024-04-21 09:07:13.203 - Charset 'null' not found.
+2024-04-21 09:07:13.203 - Charset 'null' not found.
+2024-04-21 09:07:13.204 - Charset 'null' not found.
+2024-04-21 09:07:13.204 - Charset 'null' not found.
+2024-04-21 09:07:13.204 - Charset 'null' not found.
+2024-04-21 09:07:13.205 - Charset 'null' not found.
+2024-04-21 09:07:13.205 - Charset 'null' not found.
+2024-04-21 09:07:13.206 - Charset 'null' not found.
+2024-04-21 09:07:13.206 - Charset 'null' not found.
+2024-04-21 09:07:13.207 - Charset 'null' not found.
+2024-04-21 09:07:13.207 - Charset 'null' not found.
+2024-04-21 09:07:13.208 - Charset 'null' not found.
+2024-04-21 09:07:13.208 - Charset 'null' not found.
+2024-04-21 09:07:13.209 - Charset 'null' not found.
+2024-04-21 09:07:13.209 - Charset 'null' not found.
+2024-04-21 09:07:13.209 - Charset 'null' not found.
+2024-04-21 09:07:13.210 - Charset 'null' not found.
+2024-04-21 09:07:13.210 - Charset 'null' not found.
+2024-04-21 09:07:13.211 - Charset 'null' not found.
+2024-04-21 09:07:13.211 - Charset 'null' not found.
+2024-04-21 09:07:13.212 - Charset 'null' not found.
+2024-04-21 09:07:13.212 - Charset 'null' not found.
+2024-04-21 09:07:13.212 - Charset 'null' not found.
+2024-04-21 09:07:13.213 - Charset 'null' not found.
+2024-04-21 09:07:13.213 - Charset 'null' not found.
+2024-04-21 09:07:13.214 - Charset 'null' not found.
+2024-04-21 09:07:13.214 - Charset 'null' not found.
+2024-04-21 09:07:13.214 - Charset 'null' not found.
+2024-04-21 09:07:13.215 - Charset 'null' not found.
+2024-04-21 09:07:13.215 - Charset 'null' not found.
+2024-04-21 09:07:13.216 - Charset 'null' not found.
+2024-04-21 09:07:13.216 - Charset 'null' not found.
+2024-04-21 09:07:13.217 - Charset 'null' not found.
+2024-04-21 09:07:13.217 - Charset 'null' not found.
+2024-04-21 09:07:13.218 - Charset 'null' not found.
+2024-04-21 09:07:13.218 - Charset 'null' not found.
+2024-04-21 09:07:13.218 - Charset 'null' not found.
+2024-04-21 09:07:13.219 - Charset 'null' not found.
+2024-04-21 09:07:13.219 - Charset 'null' not found.
+2024-04-21 09:07:13.220 - Charset 'null' not found.
+2024-04-21 09:07:13.220 - Charset 'null' not found.
+2024-04-21 09:07:13.220 - Charset 'null' not found.
+2024-04-21 09:07:13.221 - Charset 'null' not found.
+2024-04-21 09:07:13.221 - Charset 'null' not found.
+2024-04-21 09:07:13.222 - Charset 'null' not found.
+2024-04-21 09:07:13.222 - Charset 'null' not found.
+2024-04-21 09:07:13.223 - Charset 'null' not found.
+2024-04-21 09:07:13.223 - Charset 'null' not found.
+2024-04-21 09:07:13.223 - Charset 'null' not found.
+2024-04-21 09:07:13.224 - Charset 'null' not found.
+2024-04-21 09:07:13.224 - Charset 'null' not found.
+2024-04-21 09:07:13.225 - Charset 'null' not found.
+2024-04-21 09:07:13.225 - Charset 'null' not found.
+2024-04-21 09:07:13.226 - Charset 'null' not found.
+2024-04-21 09:07:13.226 - Charset 'null' not found.
+2024-04-21 09:07:13.226 - Charset 'null' not found.
+2024-04-21 09:07:13.227 - Charset 'null' not found.
+2024-04-21 09:07:13.228 - Charset 'null' not found.
+2024-04-21 09:07:13.228 - Charset 'null' not found.
+2024-04-21 09:07:13.229 - Charset 'null' not found.
+2024-04-21 09:07:13.229 - Charset 'null' not found.
+2024-04-21 09:07:13.229 - Charset 'null' not found.
+2024-04-21 09:07:13.230 - Charset 'null' not found.
+2024-04-21 09:07:13.230 - Charset 'null' not found.
+2024-04-21 09:07:13.231 - Charset 'null' not found.
+2024-04-21 09:07:13.231 - Charset 'null' not found.
+2024-04-21 09:07:13.232 - Charset 'null' not found.
+2024-04-21 09:07:13.232 - Charset 'null' not found.
+2024-04-21 09:07:13.233 - Charset 'null' not found.
+2024-04-21 09:07:13.233 - Charset 'null' not found.
+2024-04-21 09:07:13.234 - Charset 'null' not found.
+2024-04-21 09:07:13.234 - Charset 'null' not found.
+2024-04-21 09:07:13.235 - Charset 'null' not found.
+2024-04-21 09:07:13.235 - Charset 'null' not found.
+2024-04-21 09:07:13.236 - Charset 'null' not found.
+2024-04-21 09:07:13.236 - Charset 'null' not found.
+2024-04-21 09:07:13.237 - Charset 'null' not found.
+2024-04-21 09:07:13.237 - Charset 'null' not found.
+2024-04-21 09:07:13.238 - Charset 'null' not found.
+2024-04-21 09:07:13.238 - Charset 'null' not found.
+2024-04-21 09:07:13.239 - Charset 'null' not found.
+2024-04-21 09:07:13.239 - Charset 'null' not found.
+2024-04-21 09:07:13.240 - Charset 'null' not found.
+2024-04-21 09:07:13.240 - Charset 'null' not found.
+2024-04-21 09:07:13.241 - Charset 'null' not found.
+2024-04-21 09:07:13.241 - Charset 'null' not found.
+2024-04-21 09:07:13.241 - Charset 'null' not found.
+2024-04-21 09:07:13.242 - Charset 'null' not found.
+2024-04-21 09:07:13.242 - Charset 'null' not found.
+2024-04-21 09:07:13.243 - Charset 'null' not found.
+2024-04-21 09:07:13.243 - Charset 'null' not found.
+2024-04-21 09:07:13.244 - Charset 'null' not found.
+2024-04-21 09:07:13.244 - Charset 'null' not found.
+2024-04-21 09:07:13.245 - Charset 'null' not found.
+2024-04-21 09:07:13.245 - Charset 'null' not found.
+2024-04-21 09:07:13.246 - Charset 'null' not found.
+2024-04-21 09:07:13.246 - Charset 'null' not found.
+2024-04-21 09:07:13.247 - Charset 'null' not found.
+2024-04-21 09:07:13.247 - Charset 'null' not found.
+2024-04-21 09:07:13.247 - Charset 'null' not found.
+2024-04-21 09:07:13.248 - Charset 'null' not found.
+2024-04-21 09:07:13.248 - Charset 'null' not found.
+2024-04-21 09:07:13.249 - Charset 'null' not found.
+2024-04-21 09:07:13.249 - Charset 'null' not found.
+2024-04-21 09:07:13.250 - Charset 'null' not found.
+2024-04-21 09:07:13.250 - Charset 'null' not found.
+2024-04-21 09:07:13.250 - Charset 'null' not found.
+2024-04-21 09:07:13.251 - Charset 'null' not found.
+2024-04-21 09:07:13.251 - Charset 'null' not found.
+2024-04-21 09:07:13.252 - Charset 'null' not found.
+2024-04-21 09:07:13.252 - Charset 'null' not found.
+2024-04-21 09:07:13.253 - Charset 'null' not found.
+2024-04-21 09:07:13.256 - Charset 'null' not found.
+2024-04-21 09:07:13.258 - Charset 'null' not found.
+2024-04-21 09:07:13.258 - Charset 'null' not found.
+2024-04-21 09:07:13.259 - Charset 'null' not found.
+2024-04-21 09:07:13.260 - Charset 'null' not found.
+2024-04-21 09:07:13.260 - Charset 'null' not found.
+2024-04-21 09:07:13.261 - Charset 'null' not found.
+2024-04-21 09:07:13.261 - Charset 'null' not found.
+2024-04-21 09:07:13.262 - Charset 'null' not found.
+2024-04-21 09:07:13.262 - Charset 'null' not found.
+2024-04-21 09:07:13.263 - Charset 'null' not found.
+2024-04-21 09:07:13.263 - Charset 'null' not found.
+2024-04-21 09:07:13.264 - Charset 'null' not found.
+2024-04-21 09:07:13.264 - Charset 'null' not found.
+2024-04-21 09:07:13.265 - Charset 'null' not found.
+2024-04-21 09:07:13.265 - Charset 'null' not found.
+2024-04-21 09:07:13.266 - Charset 'null' not found.
+2024-04-21 09:07:13.266 - Charset 'null' not found.
+2024-04-21 09:07:13.267 - Charset 'null' not found.
+2024-04-21 09:07:13.267 - Charset 'null' not found.
+2024-04-21 09:07:13.268 - Charset 'null' not found.
+2024-04-21 09:07:13.269 - Charset 'null' not found.
+2024-04-21 09:07:13.269 - Charset 'null' not found.
+2024-04-21 09:07:13.270 - Charset 'null' not found.
+2024-04-21 09:07:13.270 - Charset 'null' not found.
+2024-04-21 09:07:13.271 - Charset 'null' not found.
+2024-04-21 09:07:13.271 - Charset 'null' not found.
+2024-04-21 09:07:13.272 - Charset 'null' not found.
+2024-04-21 09:07:13.272 - Charset 'null' not found.
+2024-04-21 09:07:13.273 - Charset 'null' not found.
+2024-04-21 09:07:13.273 - Charset 'null' not found.
+2024-04-21 09:07:13.274 - Charset 'null' not found.
+2024-04-21 09:07:13.274 - Charset 'null' not found.
+2024-04-21 09:07:13.274 - Charset 'null' not found.
+2024-04-21 09:07:13.275 - Charset 'null' not found.
+2024-04-21 09:07:13.379 - Connected (mariaDB-18e922ae3d1-217e126806b0cdd5, MariaDB Connector/J [3.3.2])
+2024-04-21 09:07:13.382 - Execution context opened (localhost; SQLEditor <Script-2.sql>; 2)
+2024-04-21 09:07:14.753 - Open [https://dbeaver.io/product/version.xml]
+> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.105.202403241413]
+> Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.119.202403241413]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.105.202403241413]
+> Start DBeaver Oracle UI [org.jkiss.dbeaver.ext.oracle.ui 1.0.114.202403241413]
+> Start DBeaver Oracle Model [org.jkiss.dbeaver.ext.oracle 2.1.212.202403241413]
+2024-04-21 09:07:37.180 - Unrecognized Oracle client version at %ORACLE_HOME%
+2024-04-21 09:07:37.186 - Unrecognized Oracle client version at C:\tool\bin\DB\dbhomeXE
+2024-04-21 09:07:37.291 - Auth model 'native' was replaced by 'oracle_native'
+2024-04-21 09:07:37.306 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2024-04-21 09:07:50.841 - Open [https://repo1.maven.org/maven2/com/oracle/database/jdbc/ojdbc11/23.2.0.0/ojdbc11-23.2.0.0.pom]
+2024-04-21 09:07:51.462 - Open [https://repo1.maven.org/maven2/com/oracle/database/nls/orai18n/23.2.0.0/orai18n-23.2.0.0.pom]
+2024-04-21 09:07:51.610 - Open [https://repo1.maven.org/maven2/com/oracle/database/xml/xdb6/18.3.0.0/xdb6-18.3.0.0.pom]
+2024-04-21 09:07:51.768 - Open [https://repo1.maven.org/maven2/com/oracle/database/xml/xmlparserv2/18.3.0.0/xmlparserv2-18.3.0.0.pom]
+2024-04-21 09:07:51.924 - Open [https://repo1.maven.org/maven2/com/oracle/database/xml/xmlparserv2/23.2.0.0/xmlparserv2-23.2.0.0.pom]
+2024-04-21 09:07:54.512 - Open [https://repo1.maven.org/maven2/com/oracle/database/jdbc/ojdbc11/23.2.0.0/ojdbc11-23.2.0.0.jar]
+2024-04-21 09:07:55.793 - Open [https://repo1.maven.org/maven2/com/oracle/database/nls/orai18n/23.2.0.0/orai18n-23.2.0.0.jar]
+2024-04-21 09:07:55.949 - Open [https://repo1.maven.org/maven2/com/oracle/database/xml/xdb6/18.3.0.0/xdb6-18.3.0.0.jar]
+2024-04-21 09:07:56.092 - Open [https://repo1.maven.org/maven2/com/oracle/database/xml/xmlparserv2/18.3.0.0/xmlparserv2-18.3.0.0.jar]
+2024-04-21 09:07:56.249 - Open [https://repo1.maven.org/maven2/com/oracle/database/xml/xmlparserv2/23.2.0.0/xmlparserv2-23.2.0.0.jar]
+2024-04-21 09:07:56.450 - Connect with 'jdbc:oracle:thin:@//localhost:1521/xe' (oracle_thin-18efdfb06ba-8ea31a184cd088a)
+2024-04-21 09:07:56.476 - Execution context opened (jdbc:oracle:thin:@//localhost:1521/xe; Main; 3)
+2024-04-21 09:07:58.096 - ORA-01017: 사용자명/비밀번호가 부적합, 로그온할 수 없습니다.
+
+java.sql.SQLException: ORA-01017: 사용자명/비밀번호가 부적합, 로그온할 수 없습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:603)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:598)
+	at oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:1710)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:819)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:462)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTHWithO5Logon(T4CTTIoauthenticate.java:1628)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1375)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1322)
+	at oracle.jdbc.driver.T4CConnection.authenticateWithPassword(T4CConnection.java:1516)
+	at oracle.jdbc.driver.T4CConnection.authenticateUserForLogon(T4CConnection.java:1459)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:828)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1132)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:104)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:837)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:664)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:109)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:83)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:221)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.openConnection(OracleDataSource.java:176)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:106)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:102)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:61)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:119)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:103)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:94)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.<init>(OracleDataSource.java:94)
+	at org.jkiss.dbeaver.ext.oracle.OracleDataSourceProvider.openDataSource(OracleDataSourceProvider.java:143)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1402)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1239)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:1025)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:77)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectionTestJob.run(ConnectionTestJob.java:103)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+> Start DBeaver Tasks View [org.jkiss.dbeaver.tasks.ui.view 1.0.76.202403241413]
+> Start 검색 지원 [org.eclipse.search 3.16.0.v20230921-2245]
+> Start Search Support Core [org.eclipse.search.core 3.16.0.v20230921-0933]
+2024-04-21 09:14:32.927 - SQL Error [1064] [42000]: (conn=5) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-b identified by 349734' at line 1
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: (conn=5) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-b identified by 349734' at line 1
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4133)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=5) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-b identified by 349734' at line 1
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:172)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:913)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:852)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:771)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:695)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:1035)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1165)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:493)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2024-04-21 09:14:44.286 - Execution context closed (localhost, 0)
+2024-04-21 09:14:44.297 - Execution context closed (localhost, 1)
+2024-04-21 09:14:44.308 - Execution context closed (localhost, 2)
+2024-04-21 09:14:44.308 - Disconnected (mariaDB-18e922ae3d1-217e126806b0cdd5)
+2024-04-21 09:14:49.290 - Connect with 'localhost' (mariaDB-18e922ae3d1-217e126806b0cdd5)
+2024-04-21 09:14:49.290 - Execution context opened (localhost; Main; 4)
+2024-04-21 09:14:49.294 - Execution context opened (localhost; Metadata; 5)
+2024-04-21 09:14:49.299 - Charset 'null' not found.
+2024-04-21 09:14:49.300 - Charset 'null' not found.
+2024-04-21 09:14:49.300 - Charset 'null' not found.
+2024-04-21 09:14:49.301 - Charset 'null' not found.
+2024-04-21 09:14:49.301 - Charset 'null' not found.
+2024-04-21 09:14:49.302 - Charset 'null' not found.
+2024-04-21 09:14:49.302 - Charset 'null' not found.
+2024-04-21 09:14:49.303 - Charset 'null' not found.
+2024-04-21 09:14:49.303 - Charset 'null' not found.
+2024-04-21 09:14:49.304 - Charset 'null' not found.
+2024-04-21 09:14:49.304 - Charset 'null' not found.
+2024-04-21 09:14:49.304 - Charset 'null' not found.
+2024-04-21 09:14:49.305 - Charset 'null' not found.
+2024-04-21 09:14:49.305 - Charset 'null' not found.
+2024-04-21 09:14:49.305 - Charset 'null' not found.
+2024-04-21 09:14:49.306 - Charset 'null' not found.
+2024-04-21 09:14:49.306 - Charset 'null' not found.
+2024-04-21 09:14:49.307 - Charset 'null' not found.
+2024-04-21 09:14:49.307 - Charset 'null' not found.
+2024-04-21 09:14:49.307 - Charset 'null' not found.
+2024-04-21 09:14:49.308 - Charset 'null' not found.
+2024-04-21 09:14:49.308 - Charset 'null' not found.
+2024-04-21 09:14:49.309 - Charset 'null' not found.
+2024-04-21 09:14:49.309 - Charset 'null' not found.
+2024-04-21 09:14:49.310 - Charset 'null' not found.
+2024-04-21 09:14:49.310 - Charset 'null' not found.
+2024-04-21 09:14:49.310 - Charset 'null' not found.
+2024-04-21 09:14:49.311 - Charset 'null' not found.
+2024-04-21 09:14:49.311 - Charset 'null' not found.
+2024-04-21 09:14:49.312 - Charset 'null' not found.
+2024-04-21 09:14:49.312 - Charset 'null' not found.
+2024-04-21 09:14:49.312 - Charset 'null' not found.
+2024-04-21 09:14:49.313 - Charset 'null' not found.
+2024-04-21 09:14:49.313 - Charset 'null' not found.
+2024-04-21 09:14:49.314 - Charset 'null' not found.
+2024-04-21 09:14:49.314 - Charset 'null' not found.
+2024-04-21 09:14:49.315 - Charset 'null' not found.
+2024-04-21 09:14:49.315 - Charset 'null' not found.
+2024-04-21 09:14:49.315 - Charset 'null' not found.
+2024-04-21 09:14:49.316 - Charset 'null' not found.
+2024-04-21 09:14:49.316 - Charset 'null' not found.
+2024-04-21 09:14:49.317 - Charset 'null' not found.
+2024-04-21 09:14:49.317 - Charset 'null' not found.
+2024-04-21 09:14:49.318 - Charset 'null' not found.
+2024-04-21 09:14:49.318 - Charset 'null' not found.
+2024-04-21 09:14:49.318 - Charset 'null' not found.
+2024-04-21 09:14:49.319 - Charset 'null' not found.
+2024-04-21 09:14:49.319 - Charset 'null' not found.
+2024-04-21 09:14:49.320 - Charset 'null' not found.
+2024-04-21 09:14:49.320 - Charset 'null' not found.
+2024-04-21 09:14:49.321 - Charset 'null' not found.
+2024-04-21 09:14:49.321 - Charset 'null' not found.
+2024-04-21 09:14:49.322 - Charset 'null' not found.
+2024-04-21 09:14:49.322 - Charset 'null' not found.
+2024-04-21 09:14:49.323 - Charset 'null' not found.
+2024-04-21 09:14:49.323 - Charset 'null' not found.
+2024-04-21 09:14:49.323 - Charset 'null' not found.
+2024-04-21 09:14:49.324 - Charset 'null' not found.
+2024-04-21 09:14:49.324 - Charset 'null' not found.
+2024-04-21 09:14:49.325 - Charset 'null' not found.
+2024-04-21 09:14:49.325 - Charset 'null' not found.
+2024-04-21 09:14:49.326 - Charset 'null' not found.
+2024-04-21 09:14:49.326 - Charset 'null' not found.
+2024-04-21 09:14:49.327 - Charset 'null' not found.
+2024-04-21 09:14:49.327 - Charset 'null' not found.
+2024-04-21 09:14:49.327 - Charset 'null' not found.
+2024-04-21 09:14:49.328 - Charset 'null' not found.
+2024-04-21 09:14:49.328 - Charset 'null' not found.
+2024-04-21 09:14:49.329 - Charset 'null' not found.
+2024-04-21 09:14:49.329 - Charset 'null' not found.
+2024-04-21 09:14:49.330 - Charset 'null' not found.
+2024-04-21 09:14:49.330 - Charset 'null' not found.
+2024-04-21 09:14:49.330 - Charset 'null' not found.
+2024-04-21 09:14:49.331 - Charset 'null' not found.
+2024-04-21 09:14:49.331 - Charset 'null' not found.
+2024-04-21 09:14:49.332 - Charset 'null' not found.
+2024-04-21 09:14:49.332 - Charset 'null' not found.
+2024-04-21 09:14:49.332 - Charset 'null' not found.
+2024-04-21 09:14:49.333 - Charset 'null' not found.
+2024-04-21 09:14:49.333 - Charset 'null' not found.
+2024-04-21 09:14:49.333 - Charset 'null' not found.
+2024-04-21 09:14:49.334 - Charset 'null' not found.
+2024-04-21 09:14:49.334 - Charset 'null' not found.
+2024-04-21 09:14:49.341 - Charset 'null' not found.
+2024-04-21 09:14:49.341 - Charset 'null' not found.
+2024-04-21 09:14:49.342 - Charset 'null' not found.
+2024-04-21 09:14:49.342 - Charset 'null' not found.
+2024-04-21 09:14:49.342 - Charset 'null' not found.
+2024-04-21 09:14:49.343 - Charset 'null' not found.
+2024-04-21 09:14:49.343 - Charset 'null' not found.
+2024-04-21 09:14:49.344 - Charset 'null' not found.
+2024-04-21 09:14:49.344 - Charset 'null' not found.
+2024-04-21 09:14:49.344 - Charset 'null' not found.
+2024-04-21 09:14:49.345 - Charset 'null' not found.
+2024-04-21 09:14:49.345 - Charset 'null' not found.
+2024-04-21 09:14:49.346 - Charset 'null' not found.
+2024-04-21 09:14:49.346 - Charset 'null' not found.
+2024-04-21 09:14:49.346 - Charset 'null' not found.
+2024-04-21 09:14:49.347 - Charset 'null' not found.
+2024-04-21 09:14:49.347 - Charset 'null' not found.
+2024-04-21 09:14:49.348 - Charset 'null' not found.
+2024-04-21 09:14:49.348 - Charset 'null' not found.
+2024-04-21 09:14:49.348 - Charset 'null' not found.
+2024-04-21 09:14:49.349 - Charset 'null' not found.
+2024-04-21 09:14:49.349 - Charset 'null' not found.
+2024-04-21 09:14:49.349 - Charset 'null' not found.
+2024-04-21 09:14:49.350 - Charset 'null' not found.
+2024-04-21 09:14:49.350 - Charset 'null' not found.
+2024-04-21 09:14:49.350 - Charset 'null' not found.
+2024-04-21 09:14:49.351 - Charset 'null' not found.
+2024-04-21 09:14:49.351 - Charset 'null' not found.
+2024-04-21 09:14:49.351 - Charset 'null' not found.
+2024-04-21 09:14:49.352 - Charset 'null' not found.
+2024-04-21 09:14:49.352 - Charset 'null' not found.
+2024-04-21 09:14:49.353 - Charset 'null' not found.
+2024-04-21 09:14:49.353 - Charset 'null' not found.
+2024-04-21 09:14:49.353 - Charset 'null' not found.
+2024-04-21 09:14:49.354 - Charset 'null' not found.
+2024-04-21 09:14:49.354 - Charset 'null' not found.
+2024-04-21 09:14:49.354 - Charset 'null' not found.
+2024-04-21 09:14:49.354 - Charset 'null' not found.
+2024-04-21 09:14:49.354 - Charset 'null' not found.
+2024-04-21 09:14:49.354 - Charset 'null' not found.
+2024-04-21 09:14:49.355 - Charset 'null' not found.
+2024-04-21 09:14:49.355 - Charset 'null' not found.
+2024-04-21 09:14:49.356 - Charset 'null' not found.
+2024-04-21 09:14:49.356 - Charset 'null' not found.
+2024-04-21 09:14:49.356 - Charset 'null' not found.
+2024-04-21 09:14:49.357 - Charset 'null' not found.
+2024-04-21 09:14:49.357 - Charset 'null' not found.
+2024-04-21 09:14:49.358 - Charset 'null' not found.
+2024-04-21 09:14:49.358 - Charset 'null' not found.
+2024-04-21 09:14:49.360 - Charset 'null' not found.
+2024-04-21 09:14:49.360 - Charset 'null' not found.
+2024-04-21 09:14:49.360 - Charset 'null' not found.
+2024-04-21 09:14:49.361 - Charset 'null' not found.
+2024-04-21 09:14:49.361 - Charset 'null' not found.
+2024-04-21 09:14:49.361 - Charset 'null' not found.
+2024-04-21 09:14:49.361 - Charset 'null' not found.
+2024-04-21 09:14:49.361 - Charset 'null' not found.
+2024-04-21 09:14:49.361 - Charset 'null' not found.
+2024-04-21 09:14:49.362 - Charset 'null' not found.
+2024-04-21 09:14:49.362 - Charset 'null' not found.
+2024-04-21 09:14:49.362 - Charset 'null' not found.
+2024-04-21 09:14:49.363 - Charset 'null' not found.
+2024-04-21 09:14:49.363 - Charset 'null' not found.
+2024-04-21 09:14:49.363 - Charset 'null' not found.
+2024-04-21 09:14:49.364 - Charset 'null' not found.
+2024-04-21 09:14:49.364 - Charset 'null' not found.
+2024-04-21 09:14:49.364 - Charset 'null' not found.
+2024-04-21 09:14:49.365 - Charset 'null' not found.
+2024-04-21 09:14:49.365 - Charset 'null' not found.
+2024-04-21 09:14:49.365 - Charset 'null' not found.
+2024-04-21 09:14:49.366 - Charset 'null' not found.
+2024-04-21 09:14:49.366 - Charset 'null' not found.
+2024-04-21 09:14:49.367 - Charset 'null' not found.
+2024-04-21 09:14:49.367 - Charset 'null' not found.
+2024-04-21 09:14:49.367 - Charset 'null' not found.
+2024-04-21 09:14:49.368 - Charset 'null' not found.
+2024-04-21 09:14:49.368 - Charset 'null' not found.
+2024-04-21 09:14:49.368 - Charset 'null' not found.
+2024-04-21 09:14:49.369 - Charset 'null' not found.
+2024-04-21 09:14:49.369 - Charset 'null' not found.
+2024-04-21 09:14:49.369 - Charset 'null' not found.
+2024-04-21 09:14:49.370 - Charset 'null' not found.
+2024-04-21 09:14:49.370 - Charset 'null' not found.
+2024-04-21 09:14:49.370 - Charset 'null' not found.
+2024-04-21 09:14:49.371 - Charset 'null' not found.
+2024-04-21 09:14:49.371 - Charset 'null' not found.
+2024-04-21 09:14:49.371 - Charset 'null' not found.
+2024-04-21 09:14:49.372 - Charset 'null' not found.
+2024-04-21 09:14:49.372 - Charset 'null' not found.
+2024-04-21 09:14:49.372 - Charset 'null' not found.
+2024-04-21 09:14:49.373 - Charset 'null' not found.
+2024-04-21 09:14:49.373 - Charset 'null' not found.
+2024-04-21 09:14:49.373 - Charset 'null' not found.
+2024-04-21 09:14:49.374 - Charset 'null' not found.
+2024-04-21 09:14:49.374 - Charset 'null' not found.
+2024-04-21 09:14:49.374 - Charset 'null' not found.
+2024-04-21 09:14:49.375 - Charset 'null' not found.
+2024-04-21 09:14:49.375 - Charset 'null' not found.
+2024-04-21 09:14:49.376 - Charset 'null' not found.
+2024-04-21 09:14:49.376 - Charset 'null' not found.
+2024-04-21 09:14:49.376 - Charset 'null' not found.
+2024-04-21 09:14:49.399 - Connected (mariaDB-18e922ae3d1-217e126806b0cdd5, MariaDB Connector/J [3.3.2])
+2024-04-21 09:14:49.400 - Execution context opened (localhost; SQLEditor <Script-2.sql>; 6)
+2024-04-21 09:14:54.419 - Execution context closed (localhost, 6)
+2024-04-21 09:14:54.654 - Connect with 'DBeaver Sample Database (SQLite)' (dbeaver-sample-database-sqlite-1)
+> Start DBeaver Generic Plug-in [org.jkiss.dbeaver.ext.generic 2.3.213.202403241413]
+> Start DBeaver SQLite Model [org.jkiss.dbeaver.ext.sqlite 1.0.176.202403241413]
+2024-04-21 09:14:54.684 - Execution context opened (DBeaver Sample Database (SQLite); Main; 7)
+2024-04-21 09:14:54.895 - Connected (dbeaver-sample-database-sqlite-1, SQLite JDBC [3.45.2.0])
+2024-04-21 09:15:01.957 - SQL Error [1]: [SQLITE_ERROR] SQL error or missing database (near "user": syntax error)
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1]: [SQLITE_ERROR] SQL error or missing database (near "user": syntax error)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4133)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "user": syntax error)
+	at org.sqlite.core.DB.newSQLException(DB.java:1179)
+	at org.sqlite.core.DB.newSQLException(DB.java:1190)
+	at org.sqlite.core.DB.throwex(DB.java:1150)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:132)
+	at org.sqlite.core.DB.prepare(DB.java:264)
+	at org.sqlite.jdbc3.JDBC3Statement.lambda$execute$0(JDBC3Statement.java:54)
+	at org.sqlite.jdbc3.JDBC3Statement.withConnectionTimeout(JDBC3Statement.java:454)
+	at org.sqlite.jdbc3.JDBC3Statement.execute(JDBC3Statement.java:43)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2024-04-21 09:15:41.276 - Auth model 'native' was replaced by 'oracle_native'
+2024-04-21 09:15:41.290 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2024-04-21 09:15:54.689 - Connect with 'jdbc:oracle:thin:@//localhost:1521/xe' (oracle_thin-18efe02692b-32751223b5280f0a)
+2024-04-21 09:15:54.691 - Execution context opened (jdbc:oracle:thin:@//localhost:1521/xe; Main; 8)
+2024-04-21 09:15:55.036 - Connected (oracle_thin-18efe02692b-32751223b5280f0a, Oracle JDBC driver [23.2.0.0.0])
+2024-04-21 09:15:55.048 - Execution context closed (jdbc:oracle:thin:@//localhost:1521/xe, 8)
+2024-04-21 09:15:55.048 - Disconnected (oracle_thin-18efe02692b-32751223b5280f0a)
+2024-04-21 09:16:04.210 - Connect with 'localhost 2' (oracle_thin-18efe023481-4452fa8d0eef5bfd)
+2024-04-21 09:16:04.211 - Execution context opened (localhost 2; Main; 9)
+2024-04-21 09:16:04.256 - Execution context opened (localhost 2; Metadata; 10)
+2024-04-21 09:16:04.309 - Connected (oracle_thin-18efe023481-4452fa8d0eef5bfd, Oracle JDBC driver [23.2.0.0.0])
+2024-04-21 09:16:04.332 - Execution context opened (localhost 2; SQLEditor <Script-2.sql>; 11)
+2024-04-21 09:16:29.215 - SQL Error [65096] [99999]: ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+
+
+Error position: line: 1 pos: 12
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [65096] [99999]: ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4133)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+Caused by: Error : 65096, Position : 12, SQL = CREATE USER bjh IDENTIFIED BY 49568, Original SQL = CREATE USER bjh IDENTIFIED BY 49568, Error Message = ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	... 26 more
+2024-04-21 09:16:35.748 - SQL Error [65096] [99999]: ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [65096] [99999]: ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4133)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+Caused by: Error : 65096, Position : 12, SQL = CREATE USER stane IDENTIFIED BY 49568, Original SQL = CREATE USER stane IDENTIFIED BY 49568, Error Message = ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	... 26 more
+2024-04-21 09:16:43.393 - SQL Error [1935] [42000]: ORA-01935: 누락된 사용자 혹은 롤 이름
+
+
+Error position: line: 1 pos: 12
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1935] [42000]: ORA-01935: 누락된 사용자 혹은 롤 이름
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4133)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-01935: 누락된 사용자 혹은 롤 이름
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+Caused by: Error : 1935, Position : 12, SQL = CREATE USER 'stane' IDENTIFIED BY '49568', Original SQL = CREATE USER 'stane' IDENTIFIED BY '49568', Error Message = ORA-01935: 누락된 사용자 혹은 롤 이름
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	... 26 more
+2024-04-21 09:16:54.620 - SQL Error [65096] [99999]: ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+
+
+Error position: line: 1 pos: 12
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [65096] [99999]: ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4133)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+Caused by: Error : 65096, Position : 12, SQL = CREATE USER stane IDENTIFIED BY 49568, Original SQL = CREATE USER stane IDENTIFIED BY 49568, Error Message = ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	... 26 more
+2024-04-21 09:17:01.196 - SQL Error [65096] [99999]: ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [65096] [99999]: ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4133)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+Caused by: Error : 65096, Position : 12, SQL = CREATE USER jim0120 IDENTIFIED BY 49568, Original SQL = CREATE USER jim0120 IDENTIFIED BY 49568, Error Message = ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	... 26 more
+> Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.111.202403241413]
+2024-04-21 09:17:59.640 - Auth model 'native' was replaced by 'oracle_native'
+2024-04-21 09:17:59.651 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2024-04-21 09:18:10.348 - Connect with 'jdbc:oracle:thin:@//localhost:1521/ORCL' (oracle_thin-18efe047b13-56e334c543f9077c)
+2024-04-21 09:18:10.349 - Execution context opened (jdbc:oracle:thin:@//localhost:1521/ORCL; Main; 12)
+4월 21, 2024 9:18:09 오전 oracle.jdbc.driver.PhysicalConnection connect
+정보: I:thread-34 Connect to 'Oracle' entering args (oracle.jdbc.internal.AbstractConnectionBuilder$1@666e56f7)
+4월 21, 2024 9:18:09 오전 oracle.net.ns.NSProtocol connect
+정보: U:thread-34 Connect to 'Oracle' traceId=5112770B. 
+4월 21, 2024 9:18:09 오전 oracle.net.ns.NSProtocol establishConnection
+정보: U:thread-34 Connect to 'Oracle' Session Attributes: 
+sdu=8192, tdu=2097152
+nt: host=localhost, port=1521, socketOptions={0=YES, 1=NO, 2=0, 38=TLS, 40=false, 12=WINDOWS-ROOT, 17=0, 18=false, 20=true, 23=40, 24=50, 25=0}
+    socket=null
+client profile={oracle.net.encryption_types_client=(), oracle.net.crypto_seed=, oracle.net.authentication_services=(BEQ), oracle.net.setFIPSMode=false, oracle.net.kerberos5_mutual_authentication=false, oracle.net.encryption_client=ACCEPTED, oracle.net.crypto_checksum_client=ACCEPTED, oracle.net.crypto_checksum_types_client=()}
+onBreakReset=false, dataEOF=false, negotiatedOptions=0x0, connected=false
+4월 21, 2024 9:18:09 오전 oracle.net.ns.NSProtocol configureSessionAttsAno
+정보: U:thread-34 Connect to 'Oracle' traceId=5112770B, anoEnabled=true. 
+4월 21, 2024 9:18:09 오전 oracle.net.ns.NSProtocolNIO handleConnectPacketResponse
+정보: U:thread-34 Connect to 'Oracle' Got Refused, SessionTraceId = 5112770B
+4월 21, 2024 9:18:09 오전 oracle.net.ns.NSProtocolNIO establishConnectionAfterRefusePacket
+정보: U:thread-34 Connect to 'Oracle' Outbound interrupt timer cancelled null
+4월 21, 2024 9:18:09 오전 oracle.net.ns.NSProtocol establishConnection
+정보: U:thread-34 Connect to 'Oracle' Session Attributes: 
+sdu=8192, tdu=2097152
+nt: host=localhost, port=1521, socketOptions={0=YES, 1=NO, 2=0, 38=TLS, 40=false, 12=WINDOWS-ROOT, 17=0, 18=false, 20=true, 23=40, 24=50, 25=0}
+    socket=null
+client profile={oracle.net.encryption_types_client=(), oracle.net.crypto_seed=, oracle.net.authentication_services=(BEQ), oracle.net.setFIPSMode=false, oracle.net.kerberos5_mutual_authentication=false, oracle.net.encryption_client=ACCEPTED, oracle.net.crypto_checksum_client=ACCEPTED, oracle.net.crypto_checksum_types_client=()}
+onBreakReset=false, dataEOF=false, negotiatedOptions=0x0, connected=false
+4월 21, 2024 9:18:09 오전 oracle.net.ns.NSProtocolNIO handleConnectPacketResponse
+정보: U:thread-34 Connect to 'Oracle' Got Refused, SessionTraceId = 5112770B
+4월 21, 2024 9:18:09 오전 oracle.net.ns.NSProtocolNIO establishConnectionAfterRefusePacket
+정보: U:thread-34 Connect to 'Oracle' Outbound interrupt timer cancelled null
+4월 21, 2024 9:18:09 오전 oracle.jdbc.driver.PhysicalConnection connect
+정보: I:thread-34 Connect to 'Oracle' throwing
+java.sql.SQLRecoverableException: ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=h+PMY5mJSRKWuFctK/TR0w==)
+	at oracle.jdbc.driver.T4CConnection.handleLogonNetException(T4CConnection.java:1099)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:879)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1132)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:104)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:837)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:664)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:109)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:83)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:221)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.openConnection(OracleDataSource.java:176)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:106)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:102)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:61)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:119)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:103)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:94)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.<init>(OracleDataSource.java:94)
+	at org.jkiss.dbeaver.ext.oracle.OracleDataSourceProvider.openDataSource(OracleDataSourceProvider.java:143)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1402)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1239)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:1025)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:77)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectionTestJob.run(ConnectionTestJob.java:103)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: oracle.net.ns.NetException: ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=h+PMY5mJSRKWuFctK/TR0w==)
+	at oracle.net.ns.NSProtocolNIO.createRefusePacketException(NSProtocolNIO.java:913)
+	at oracle.net.ns.NSProtocolNIO.handleConnectPacketResponse(NSProtocolNIO.java:454)
+	at oracle.net.ns.NSProtocolNIO.negotiateConnection(NSProtocolNIO.java:262)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:327)
+	at oracle.jdbc.driver.T4CConnection.connectSession(T4CConnection.java:2882)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:811)
+	... 23 more
+
+2024-04-21 09:18:10.416 - ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=h+PMY5mJSRKWuFctK/TR0w==)
+oracle.net.ns.NetException: ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=h+PMY5mJSRKWuFctK/TR0w==)
+	at oracle.net.ns.NSProtocolNIO.createRefusePacketException(NSProtocolNIO.java:913)
+	at oracle.net.ns.NSProtocolNIO.handleConnectPacketResponse(NSProtocolNIO.java:454)
+	at oracle.net.ns.NSProtocolNIO.negotiateConnection(NSProtocolNIO.java:262)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:327)
+	at oracle.jdbc.driver.T4CConnection.connectSession(T4CConnection.java:2882)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:811)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1132)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:104)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:837)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:664)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:109)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:83)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:221)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.openConnection(OracleDataSource.java:176)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:106)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:102)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:61)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:119)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:103)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:94)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.<init>(OracleDataSource.java:94)
+	at org.jkiss.dbeaver.ext.oracle.OracleDataSourceProvider.openDataSource(OracleDataSourceProvider.java:143)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1402)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1239)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:1025)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:77)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectionTestJob.run(ConnectionTestJob.java:103)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-04-21 09:18:15.203 - Connect with 'jdbc:oracle:thin:@//localhost:1521/xe' (oracle_thin-18efe048e0d-423311123ad2283a)
+2024-04-21 09:18:15.203 - Execution context opened (jdbc:oracle:thin:@//localhost:1521/xe; Main; 13)
+2024-04-21 09:18:16.323 - ORA-01017: 사용자명/비밀번호가 부적합, 로그온할 수 없습니다.
+
+java.sql.SQLException: ORA-01017: 사용자명/비밀번호가 부적합, 로그온할 수 없습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:603)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:598)
+	at oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:1710)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:819)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:462)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTHWithO5Logon(T4CTTIoauthenticate.java:1628)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1375)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1322)
+	at oracle.jdbc.driver.T4CConnection.authenticateWithPassword(T4CConnection.java:1516)
+	at oracle.jdbc.driver.T4CConnection.authenticateUserForLogon(T4CConnection.java:1459)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:828)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1132)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:104)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:837)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:664)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:109)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:83)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:221)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.openConnection(OracleDataSource.java:176)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:106)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:102)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:61)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:119)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:103)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:94)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.<init>(OracleDataSource.java:94)
+	at org.jkiss.dbeaver.ext.oracle.OracleDataSourceProvider.openDataSource(OracleDataSourceProvider.java:143)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1402)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1239)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:1025)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:77)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectionTestJob.run(ConnectionTestJob.java:103)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-04-21 09:18:24.011 - Connect with 'jdbc:oracle:thin:@//localhost:1521/xe' (oracle_thin-18efe04b075-19e3e88433866716)
+2024-04-21 09:18:24.012 - Execution context opened (jdbc:oracle:thin:@//localhost:1521/xe; Main; 14)
+2024-04-21 09:18:24.073 - Connected (oracle_thin-18efe04b075-19e3e88433866716, Oracle JDBC driver [23.2.0.0.0])
+2024-04-21 09:18:24.085 - Execution context closed (jdbc:oracle:thin:@//localhost:1521/xe, 14)
+2024-04-21 09:18:24.085 - Disconnected (oracle_thin-18efe04b075-19e3e88433866716)
+2024-04-21 09:19:11.819 - Execution context closed (오라클관리자, 9)
+2024-04-21 09:19:11.830 - Execution context closed (오라클관리자, 10)
+2024-04-21 09:19:11.841 - Execution context closed (오라클관리자, 11)
+2024-04-21 09:19:11.841 - Disconnected (oracle_thin-18efe023481-4452fa8d0eef5bfd)
+2024-04-21 09:19:14.738 - Execution context closed (MariaDB, 4)
+2024-04-21 09:19:14.749 - Execution context closed (MariaDB, 5)
+2024-04-21 09:19:14.749 - Disconnected (mariaDB-18e922ae3d1-217e126806b0cdd5)
+2024-04-21 09:19:17.396 - Execution context closed (DBeaver Sample Database (SQLite), 7)
+2024-04-21 09:19:17.396 - Disconnected (dbeaver-sample-database-sqlite-1)
+2024-04-21 09:19:18.199 - Connect with 'jim0120' (oracle_thin-18efe045107-3ea6d252b25dfd3e)
+2024-04-21 09:19:18.199 - Execution context opened (jim0120; Main; 15)
+2024-04-21 09:19:18.243 - Execution context opened (jim0120; Metadata; 16)
+2024-04-21 09:19:18.289 - Connected (oracle_thin-18efe045107-3ea6d252b25dfd3e, Oracle JDBC driver [23.2.0.0.0])
+2024-04-21 09:38:52.090 - Connect with '오라클관리자' (oracle_thin-18efe023481-4452fa8d0eef5bfd)
+2024-04-21 09:38:52.091 - Execution context opened (오라클관리자; Main; 17)
+2024-04-21 09:38:52.138 - Execution context opened (오라클관리자; Metadata; 18)
+2024-04-21 09:38:52.187 - Connected (oracle_thin-18efe023481-4452fa8d0eef5bfd, Oracle JDBC driver [23.2.0.0.0])
+2024-04-21 09:38:52.208 - Execution context opened (오라클관리자; SQLEditor <Script-2.sql>; 19)
+2024-04-21 09:38:52.209 - Execution context opened (오라클관리자; SQLEditor <Script.sql>; 20)
+2024-04-21 09:38:54.574 - Execution context opened (jim0120; SQLEditor <Script.sql>; 21)
+2024-04-21 09:38:54.589 - Execution context closed (오라클관리자, 20)
+2024-04-21 09:38:58.319 - Execution context closed (오라클관리자, 19)
+2024-04-21 09:39:01.208 - Execution context closed (오라클관리자, 17)
+2024-04-21 09:39:01.219 - Execution context closed (오라클관리자, 18)
+2024-04-21 09:39:01.219 - Disconnected (oracle_thin-18efe023481-4452fa8d0eef5bfd)
+2024-04-21 09:39:40.903 - Connect with 'DBeaver Sample Database (SQLite)' (dbeaver-sample-database-sqlite-1)
+2024-04-21 09:39:40.904 - Execution context opened (DBeaver Sample Database (SQLite); Main; 22)
+2024-04-21 09:39:40.905 - Connected (dbeaver-sample-database-sqlite-1, SQLite JDBC [3.45.2.0])
+2024-04-21 10:16:58.957 - Event loop exception
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:450)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:369)
+	at org.eclipse.swt.widgets.Table.removeAll(Table.java:3205)
+	at org.jkiss.dbeaver.ui.controls.resultset.view.StatisticsPresentation.refreshData(StatisticsPresentation.java:92)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetDataReceiver.lambda$1(ResultSetDataReceiver.java:195)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:172)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:296)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:641)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:601)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1458)
+2024-04-21 10:16:59.015 - SQL Error [955] [42000]: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [955] [42000]: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4133)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+Caused by: Error : 955, Position : 13, SQL = CREATE TABLE WRITE_R (
+	WRITE_NO	NUMBER	PRIMARY KEY,
+	USER_NO	NUMBER	NOT NULL,
+	WRITE_TITLE	VARCHAR(40)	NOT NULL,
+	WRITE_CONTENT	VARCHAR2(300)	NOT NULL,
+	WRITE_DATE	DATE	DEFAULT sysdate 
+), Original SQL = CREATE TABLE WRITE_R (
+	WRITE_NO	NUMBER	PRIMARY KEY,
+	USER_NO	NUMBER	NOT NULL,
+	WRITE_TITLE	VARCHAR(40)	NOT NULL,
+	WRITE_CONTENT	VARCHAR2(300)	NOT NULL,
+	WRITE_DATE	DATE	DEFAULT sysdate 
+), Error Message = ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	... 26 more
+2024-04-21 10:17:03.953 - SQL Error [955] [42000]: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+
+Error position: line: 16 pos: 13
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [955] [42000]: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4133)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+Caused by: Error : 955, Position : 13, SQL = CREATE TABLE WRITE_R (
+	WRITE_NO	NUMBER	PRIMARY KEY,
+	USER_NO	NUMBER	NOT NULL,
+	WRITE_TITLE	VARCHAR(40)	NOT NULL,
+	WRITE_CONTENT	VARCHAR2(300)	NOT NULL,
+	WRITE_DATE	DATE	DEFAULT sysdate 
+), Original SQL = CREATE TABLE WRITE_R (
+	WRITE_NO	NUMBER	PRIMARY KEY,
+	USER_NO	NUMBER	NOT NULL,
+	WRITE_TITLE	VARCHAR(40)	NOT NULL,
+	WRITE_CONTENT	VARCHAR2(300)	NOT NULL,
+	WRITE_DATE	DATE	DEFAULT sysdate 
+), Error Message = ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	... 26 more
+> Start Equinox Provisioning Metadata [org.eclipse.equinox.p2.metadata 2.8.0.v20231102-1258]
+> Start 비교 지원 [org.eclipse.compare 3.9.300.v20231123-2204]
+2024-04-21 10:22:40.003 - SQL Error [911] [22019]: ORA-00911: 문자가 부적합합니다
+
+
+Error position: line: 25 pos: 12
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [911] [22019]: ORA-00911: 문자가 부적합합니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4133)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00911: 문자가 부적합합니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+Caused by: Error : 911, Position : 12, SQL = ALTER TABLE `USER` ADD CONSTRAINT `PK_USER` PRIMARY KEY (
+	`USER_NO`
+);
+
+ALTER TABLE `WRITE` ADD CONSTRAINT `PK_WRITE` PRIMARY KEY (
+	`WRITE_NO`,
+	`USER_NO`
+);
+
+ALTER TABLE WRITE_W ADD CONSTRAINT FK_USER_TO_WRITE_1 FOREIGN KEY (
+	USER_NO
+)
+REFERENCES USER_U (
+	USER_NO
+), Original SQL = ALTER TABLE `USER` ADD CONSTRAINT `PK_USER` PRIMARY KEY (
+	`USER_NO`
+);
+
+ALTER TABLE `WRITE` ADD CONSTRAINT `PK_WRITE` PRIMARY KEY (
+	`WRITE_NO`,
+	`USER_NO`
+);
+
+ALTER TABLE WRITE_W ADD CONSTRAINT FK_USER_TO_WRITE_1 FOREIGN KEY (
+	USER_NO
+)
+REFERENCES USER_U (
+	USER_NO
+), Error Message = ORA-00911: 문자가 부적합합니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	... 26 more
+2024-04-21 10:23:48.737 - SQL Error [911] [22019]: ORA-00911: 문자가 부적합합니다
+
+
+Error position: line: 25 pos: 12
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [911] [22019]: ORA-00911: 문자가 부적합합니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4133)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00911: 문자가 부적합합니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+Caused by: Error : 911, Position : 12, SQL = ALTER TABLE `USER_U` ADD CONSTRAINT `PK_USER` PRIMARY KEY (
+	`USER_NO`
+);
+
+ALTER TABLE `WRITE` ADD CONSTRAINT `PK_WRITE` PRIMARY KEY (
+	`WRITE_NO`,
+	`USER_NO`
+), Original SQL = ALTER TABLE `USER_U` ADD CONSTRAINT `PK_USER` PRIMARY KEY (
+	`USER_NO`
+);
+
+ALTER TABLE `WRITE` ADD CONSTRAINT `PK_WRITE` PRIMARY KEY (
+	`WRITE_NO`,
+	`USER_NO`
+), Error Message = ORA-00911: 문자가 부적합합니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	... 26 more
+2024-04-21 10:24:01.130 - SQL Error [911] [22019]: ORA-00911: 문자가 부적합합니다
+
+
+Error position: line: 25 pos: 34
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [911] [22019]: ORA-00911: 문자가 부적합합니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4133)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00911: 문자가 부적합합니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+Caused by: Error : 911, Position : 34, SQL = ALTER TABLE USER_U ADD CONSTRAINT `PK_USER` PRIMARY KEY (
+	`USER_NO`
+), Original SQL = ALTER TABLE USER_U ADD CONSTRAINT `PK_USER` PRIMARY KEY (
+	`USER_NO`
+), Error Message = ORA-00911: 문자가 부적합합니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	... 26 more
+2024-04-21 10:24:17.622 - SQL Error [911] [22019]: ORA-00911: 문자가 부적합합니다
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [911] [22019]: ORA-00911: 문자가 부적합합니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4133)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00911: 문자가 부적합합니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+Caused by: Error : 911, Position : 58, SQL = ALTER TABLE WRITE ADD CONSTRAINT PK_WRITE PRIMARY KEY (
+	`WRITE_NO`,
+	`USER_NO`
+), Original SQL = ALTER TABLE WRITE ADD CONSTRAINT PK_WRITE PRIMARY KEY (
+	`WRITE_NO`,
+	`USER_NO`
+), Error Message = ORA-00911: 문자가 부적합합니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	... 26 more
+2024-04-21 10:24:27.922 - SQL Error [1735] [42000]: ORA-01735: 부적합한 ALTER TABLE 옵션입니다
+
+
+Error position: line: 27 pos: 68
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1735] [42000]: ORA-01735: 부적합한 ALTER TABLE 옵션입니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4133)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-01735: 부적합한 ALTER TABLE 옵션입니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+Caused by: Error : 1735, Position : 68, SQL = ALTER TABLE USER_U ADD CONSTRAINT PK_USER PRIMARY KEY (
+	USER_NO
+);
+
+ALTER TABLE WRITE ADD CONSTRAINT PK_WRITE PRIMARY KEY (
+	WRITE_NO,
+	USER_NO
+), Original SQL = ALTER TABLE USER_U ADD CONSTRAINT PK_USER PRIMARY KEY (
+	USER_NO
+);
+
+ALTER TABLE WRITE ADD CONSTRAINT PK_WRITE PRIMARY KEY (
+	WRITE_NO,
+	USER_NO
+), Error Message = ORA-01735: 부적합한 ALTER TABLE 옵션입니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	... 26 more
+2024-04-21 10:25:01.988 - SQL Error [2260] [42000]: ORA-02260: 테이블에는 하나의 기본 키만 가질 수 있습니다.
+
+
+Error position: line: 25 pos: 42
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2260] [42000]: ORA-02260: 테이블에는 하나의 기본 키만 가질 수 있습니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4133)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-02260: 테이블에는 하나의 기본 키만 가질 수 있습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+Caused by: Error : 2260, Position : 42, SQL = ALTER TABLE USER_U ADD CONSTRAINT PK_USER PRIMARY KEY (
+	USER_NO
+), Original SQL = ALTER TABLE USER_U ADD CONSTRAINT PK_USER PRIMARY KEY (
+	USER_NO
+), Error Message = ORA-02260: 테이블에는 하나의 기본 키만 가질 수 있습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	... 26 more
+2024-04-21 10:25:07.395 - SQL Error [942] [42000]: ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+
+Error position: line: 29
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [942] [42000]: ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4133)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+Caused by: Error : 942, Position : 0, SQL = ALTER TABLE WRITE ADD CONSTRAINT PK_WRITE PRIMARY KEY (
+	WRITE_NO,
+	USER_NO
+), Original SQL = ALTER TABLE WRITE ADD CONSTRAINT PK_WRITE PRIMARY KEY (
+	WRITE_NO,
+	USER_NO
+), Error Message = ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	... 26 more
+2024-04-21 10:25:23.676 - SQL Error [2260] [42000]: ORA-02260: 테이블에는 하나의 기본 키만 가질 수 있습니다.
+
+
+Error position: line: 29 pos: 44
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2260] [42000]: ORA-02260: 테이블에는 하나의 기본 키만 가질 수 있습니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4133)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-02260: 테이블에는 하나의 기본 키만 가질 수 있습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+Caused by: Error : 2260, Position : 44, SQL = ALTER TABLE WRITE_R ADD CONSTRAINT PK_WRITE PRIMARY KEY (
+	WRITE_NO,
+	USER_NO
+), Original SQL = ALTER TABLE WRITE_R ADD CONSTRAINT PK_WRITE PRIMARY KEY (
+	WRITE_NO,
+	USER_NO
+), Error Message = ORA-02260: 테이블에는 하나의 기본 키만 가질 수 있습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	... 26 more
+2024-04-21 10:25:54.085 - SQL Error [2260] [42000]: ORA-02260: 테이블에는 하나의 기본 키만 가질 수 있습니다.
+
+
+Error position: line: 29 pos: 44
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2260] [42000]: ORA-02260: 테이블에는 하나의 기본 키만 가질 수 있습니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4133)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-02260: 테이블에는 하나의 기본 키만 가질 수 있습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+Caused by: Error : 2260, Position : 44, SQL = ALTER TABLE WRITE_R ADD CONSTRAINT PK_WRITE PRIMARY KEY (
+	WRITE_NO,
+	USER_NO
+), Original SQL = ALTER TABLE WRITE_R ADD CONSTRAINT PK_WRITE PRIMARY KEY (
+	WRITE_NO,
+	USER_NO
+), Error Message = ORA-02260: 테이블에는 하나의 기본 키만 가질 수 있습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	... 26 more
+2024-04-21 10:26:17.882 - SQL Error [2275] [42000]: ORA-02275: 참조 제약이 이미 테이블에 존재합니다
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2275] [42000]: ORA-02275: 참조 제약이 이미 테이블에 존재합니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4133)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-02275: 참조 제약이 이미 테이블에 존재합니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+Caused by: Error : 2275, Position : 54, SQL = ALTER TABLE WRITE_W ADD CONSTRAINT FK_USER_TO_WRITE_1 FOREIGN KEY (
+	USER_NO
+)
+REFERENCES USER_U (
+	USER_NO
+), Original SQL = ALTER TABLE WRITE_W ADD CONSTRAINT FK_USER_TO_WRITE_1 FOREIGN KEY (
+	USER_NO
+)
+REFERENCES USER_U (
+	USER_NO
+), Error Message = ORA-02275: 참조 제약이 이미 테이블에 존재합니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	... 26 more
+2024-04-21 10:26:25.331 - SQL Error [1950] [42000]: ORA-01950: 테이블스페이스 'USERS'에 대한 권한이 없습니다.
+
+
+Error position: line: 44 pos: 66
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1950] [42000]: ORA-01950: 테이블스페이스 'USERS'에 대한 권한이 없습니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:527)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4133)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-01950: 테이블스페이스 'USERS'에 대한 권한이 없습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 11 more
+Caused by: Error : 1950, Position : 66, SQL = INSERT INTO USER_U(USER_NO, USER_ID, USER_PW, USER_DATE)
+ VALUES(SEQ_USER_U_NO.NEXTVAL, 'jin', '1234', DEFAULT), Original SQL = INSERT INTO USER_U(USER_NO, USER_ID, USER_PW, USER_DATE)
+ VALUES(SEQ_USER_U_NO.NEXTVAL, 'jin', '1234', DEFAULT), Error Message = ORA-01950: 테이블스페이스 'USERS'에 대한 권한이 없습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	... 25 more
+2024-04-21 10:26:51.043 - SQL Error [1950] [42000]: ORA-01950: 테이블스페이스 'USERS'에 대한 권한이 없습니다.
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1950] [42000]: ORA-01950: 테이블스페이스 'USERS'에 대한 권한이 없습니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:527)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4133)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-01950: 테이블스페이스 'USERS'에 대한 권한이 없습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 11 more
+Caused by: Error : 1950, Position : 12, SQL = INSERT INTO USER_U(USER_NO, USER_ID, USER_PW, USER_DATE)
+ VALUES(SEQ_USER_U_NO.NEXTVAL, 'jin', '1234', DEFAULT), Original SQL = INSERT INTO USER_U(USER_NO, USER_ID, USER_PW, USER_DATE)
+ VALUES(SEQ_USER_U_NO.NEXTVAL, 'jin', '1234', DEFAULT), Error Message = ORA-01950: 테이블스페이스 'USERS'에 대한 권한이 없습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	... 25 more
+2024-04-21 10:27:37.838 - SQL Error [1950] [42000]: ORA-01950: 테이블스페이스 'USERS'에 대한 권한이 없습니다.
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1950] [42000]: ORA-01950: 테이블스페이스 'USERS'에 대한 권한이 없습니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:527)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4133)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:191)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-01950: 테이블스페이스 'USERS'에 대한 권한이 없습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 11 more
+Caused by: Error : 1950, Position : 0, SQL = INSERT INTO USER_U(USER_NO, USER_ID, USER_PW, USER_DATE)
+ VALUES(SEQ_USER_U_NO.NEXTVAL, 'jin', '1234', DEFAULT), Original SQL = INSERT INTO USER_U(USER_NO, USER_ID, USER_PW, USER_DATE)
+ VALUES(SEQ_USER_U_NO.NEXTVAL, 'jin', '1234', DEFAULT), Error Message = ORA-01950: 테이블스페이스 'USERS'에 대한 권한이 없습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	... 25 more
+2024-04-21 10:39:36.549 - Execution context opened (jim0120; SQLEditor <Script.sql>; 23)
+2024-04-21 10:39:38.226 - Execution context closed (jim0120, 23)
+2024-04-21 10:39:38.229 - Delete empty SQL script '\General\Scripts\Script.sql'
+2024-04-21 10:39:47.601 - Resource 'meta.org.jkiss.dbeaver.model.navigator.DBNResource.nodeDisplayName.name' not found in bundle org.jkiss.dbeaver.model
+2024-04-21 10:39:47.601 - Resource 'meta.org.jkiss.dbeaver.model.navigator.DBNResource.nodeDisplayName.name' not found in bundle org.jkiss.dbeaver.model
+2024-04-21 10:39:47.602 - Resource 'meta.org.jkiss.dbeaver.model.navigator.DBNResource.nodeDisplayName.name' not found in bundle org.jkiss.dbeaver.model
+2024-04-21 10:41:05.398 - 	Invalidate context 'Main' for oracle_thin-18efe045107-3ea6d252b25dfd3e (BEFORE_INVALIDATE)
+2024-04-21 10:41:05.410 - Execution context closed (jim0120, 15)
+2024-04-21 10:41:05.412 - 	Invalidate context 'Metadata' for oracle_thin-18efe045107-3ea6d252b25dfd3e (BEFORE_INVALIDATE)
+2024-04-21 10:41:05.472 - Execution context closed (jim0120, 16)
+2024-04-21 10:41:05.472 - 	Invalidate context 'SQLEditor <Script.sql>' for oracle_thin-18efe045107-3ea6d252b25dfd3e (BEFORE_INVALIDATE)
+2024-04-21 10:41:05.533 - Execution context closed (jim0120, 21)
+2024-04-21 10:41:05.533 - 	Invalidate context 'Main' for oracle_thin-18efe045107-3ea6d252b25dfd3e (INVALIDATE)
+2024-04-21 10:41:05.579 - 	Invalidate context 'Metadata' for oracle_thin-18efe045107-3ea6d252b25dfd3e (INVALIDATE)
+2024-04-21 10:41:05.627 - 	Invalidate context 'SQLEditor <Script.sql>' for oracle_thin-18efe045107-3ea6d252b25dfd3e (INVALIDATE)
+2024-04-21 10:41:05.672 - 	Invalidate context 'Main' for oracle_thin-18efe045107-3ea6d252b25dfd3e (AFTER_INVALIDATE)
+2024-04-21 10:41:05.673 - 	Invalidate context 'Metadata' for oracle_thin-18efe045107-3ea6d252b25dfd3e (AFTER_INVALIDATE)
+2024-04-21 10:41:05.673 - 	Invalidate context 'SQLEditor <Script.sql>' for oracle_thin-18efe045107-3ea6d252b25dfd3e (AFTER_INVALIDATE)
+2024-04-21 10:41:05.684 - Connections reopened: 3 (of 3)
+> Start Data Transfer UI [org.jkiss.dbeaver.data.transfer.ui 1.0.111.202403241413]
+2024-04-21 10:41:09.952 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2024-04-21 10:42:11.369 - Execution context closed (jim0120, 21)
+2024-04-21 10:42:11.682 - DBeaver is stopping
+2024-04-21 10:42:11.687 - Stop instance server
+2024-04-21 10:42:12.695 - Instance server has been stopped
+2024-04-21 10:42:12.695 - DBeaver shutdown completed
