@@ -8,7 +8,5 @@ public class ExitUI extends BaseUI{
 		System.out.println("종료합니다");
 		System.out.println("--------------");
 		System.exit(0);
-		
 	}
-
 }
