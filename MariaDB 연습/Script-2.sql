@@ -1,7 +1,0 @@
-CREATE USER C##jim0120 IDENTIFIED BY 49568;
-
-ALTER USER C##jim0120 account unlock;
-
-GRANT resource,CONNECT TO C##jim0120;
-
-COMMIT;
