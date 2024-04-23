@@ -1,6 +1,17 @@
 package em.ac.kr.ui;
 
 public class EmailUI2 extends BaseUI{
+	
+	private String loggedInUserId;
+	
+	public String getLoggedInUserId() {
+		return loggedInUserId;
+	}
+
+	public void setLoggedInUserId(String loggedInUserId) {
+		this.loggedInUserId = loggedInUserId;
+	}
+
 	private int choiceMenu() {
 		System.out.println("***** MAIL *****");
 		System.out.println("1. 받은메일함");
@@ -16,21 +27,23 @@ public class EmailUI2 extends BaseUI{
 
 	@Override
 	public void execute() throws Exception {
+		 System.out.println(loggedInUserId + "님 환영합니다");
+		
 		while (true) {
 			IEmailUI ui = null;
 			int type = choiceMenu();
 			switch (type) {
 			case 1:
-				ui = new GetUI();
+				ui = new GetUI(loggedInUserId);
 				break;
 			case 2:
-				ui = new SendUI();
+				ui = new SendUI(loggedInUserId);
 				break;
 			case 3:
 				ui = new HandUI();
 				break;
 			case 4:
-				ui = new WriteUI();
+				ui = new WriteUI(loggedInUserId);
 				break;
 			case 5:
 				ui = new DeleteUI();

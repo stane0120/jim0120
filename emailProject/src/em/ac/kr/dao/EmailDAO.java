@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import em.ac.kr.util.ConnectionFactory;
 import em.ac.kr.vo.EmailVO;
+import em.ac.kr.vo.UserVO;
 
 public class EmailDAO {
 	public void insert(EmailVO email) {
@@ -56,7 +57,7 @@ public class EmailDAO {
 		return loggedIn;
 	}
 
-	public List<EmailVO> Get() {
+	public List<EmailVO> Get(String loggedInUserId) {
 		List<EmailVO> list = new ArrayList<>();
 
 		StringBuilder sql = new StringBuilder();
@@ -67,7 +68,7 @@ public class EmailDAO {
 
 		try (Connection conn = new ConnectionFactory().getConnection();
 			PreparedStatement pstmt = conn.prepareStatement(sql.toString());) {
-			
+			pstmt.setString(1, loggedInUserId);
 			ResultSet rs = pstmt.executeQuery();
 			while (rs.next()) {
 				int write_no = rs.getInt("write_no");
@@ -75,7 +76,7 @@ public class EmailDAO {
 				String write_title = rs.getString("write_title");
 				String write_content = rs.getString("write_content");
 				String write_date = rs.getString("write_date");
-	            String user_id = rs.getString("user_id");
+				String user_id = rs.getString("user_id");
 	            
 				EmailVO email = new EmailVO(write_no, user_no, write_title, write_content, write_date, user_id);
 				list.add(email);
@@ -89,17 +90,18 @@ public class EmailDAO {
 		return list;
 	}
 
-	public List<EmailVO> Send() {
+	public List<EmailVO> Send(String loggedInUserId) {
 	    List<EmailVO> list = new ArrayList<>();
 
 	    StringBuilder sql = new StringBuilder();
-	    sql.append("SELECT write_no, user_no, write_title, write_content");
-	    sql.append(", TO_CHAR(write_date, 'yyyy-mm-dd') write_date, user_id ");
+	    sql.append("select write_no, user_no, write_title, write_content");
+	    sql.append(", to_char(write_date, 'yyyy-mm-dd') write_date, user_id ");
 	    sql.append("FROM write_r ");
-	    sql.append("WHERE user_id != ? ");
+	    sql.append("where user_id != ? ");
 
 	    try (Connection conn = new ConnectionFactory().getConnection();
 	        PreparedStatement pstmt = conn.prepareStatement(sql.toString());) {
+	    	pstmt.setString(1, loggedInUserId);
 	        ResultSet rs = pstmt.executeQuery();
 
 	        while (rs.next()) {
@@ -109,10 +111,9 @@ public class EmailDAO {
 	            String write_content = rs.getString("write_content");
 	            String write_date = rs.getString("write_date");
 	            String user_id = rs.getString("user_id");
-
+	            
 	            EmailVO emailVO = new EmailVO(write_no, user_no, write_title, write_content, write_date, user_id);
-	            list.add(emailVO);
-           
+	            list.add(emailVO);         
 	        } 
 
 	    } catch (Exception e) {
@@ -127,7 +128,7 @@ public class EmailDAO {
 
 		StringBuilder sql = new StringBuilder();
 		sql.append("select write_no, user_no, write_title, write_content");
-		sql.append("     , to_char(write_date, 'yyyy-mm-dd') write_date, user_id ");
+		sql.append("     , to_char(write_date, 'yyyy-mm-dd') write_date, user_id");
 		sql.append("  from write_h ");
 
 		try (Connection conn = new ConnectionFactory().getConnection();
@@ -157,9 +158,14 @@ public class EmailDAO {
 		StringBuilder sql = new StringBuilder();
 		sql.append("insert into write_r (write_no, user_no, user_id, write_title, write_content, write_date) ");
 		sql.append(" values(seq_write_no.nextval, ?, ?, ?, ?, sysdate) ");
+		
+		StringBuilder sql2 = new StringBuilder();
+		sql2.append("insert into write_w (write_no, user_no, user_id, write_title, write_content, write_date) ");
+		sql2.append(" values(seq_write_no.nextval, ?, ?, ?, ?, sysdate) ");
 
 		try (Connection conn = new ConnectionFactory().getConnection();
-			PreparedStatement pstmt = conn.prepareStatement(sql.toString());){
+			PreparedStatement pstmt = conn.prepareStatement(sql.toString());
+			PreparedStatement pstmt2 = conn.prepareStatement(sql2.toString());){
 			
 			String write_title = email.getWrite_title();
 			String write_content = email.getWrite_content();
@@ -171,6 +177,12 @@ public class EmailDAO {
 			pstmt.setString(3, write_title);
 			pstmt.setString(4, write_content);
 			pstmt.executeUpdate();
+			
+			pstmt2.setInt(1, user_no);
+			pstmt2.setString(2, user_id);
+			pstmt2.setString(3, write_title);
+			pstmt2.setString(4, write_content);
+			pstmt2.executeUpdate();
 
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -218,5 +230,34 @@ public class EmailDAO {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+	}
+
+	public List<UserVO> Help(String HelpId) {
+		List<UserVO> list = new ArrayList<>();
+
+		StringBuilder sql = new StringBuilder();
+		sql.append("select user_id, user_pw, user_tel ");
+		sql.append("  from user_u ");
+		sql.append("  where user_tel = ? ");
+
+		try (Connection conn = new ConnectionFactory().getConnection();
+			PreparedStatement pstmt = conn.prepareStatement(sql.toString());) {
+			pstmt.setString(1, HelpId);
+			ResultSet rs = pstmt.executeQuery();
+
+			while (rs.next()) {
+				String user_id = rs.getString("user_id");
+				String user_pw = rs.getString("user_pw");
+				String user_tel = rs.getString("user_tel");
+
+				UserVO user = new UserVO(user_id, user_pw, user_tel);
+				list.add(user);
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		return list;
 	}
 }

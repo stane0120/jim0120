@@ -10,6 +10,7 @@ public class EmailVO {
 	private String write_title;
 	private String write_content;
 	private String write_date;
+	private String user_tel;
 	
 	public EmailVO() {
 		super();
@@ -88,11 +89,20 @@ public class EmailVO {
 	public void setWrite_date(String write_date) {
 		this.write_date = write_date;
 	}
+	
+	public String getUser_tel() {
+		return user_tel;
+	}
+
+	public void setUser_tel(String user_tel) {
+		this.user_tel = user_tel;
+	}
+	
 	@Override
 	public String toString() {
-		return "EmailVO [user_no=" + user_no + ", user_id=" + user_id + ", user_pw=" + user_pw + ", user_date="
+		return "EmailVO [user_no=" + user_no + ", user_id=" + user_id + ", user_id2=" + user_id + ", user_pw=" + user_pw + ", user_date="
 				+ user_date + ", write_no=" + write_no + ", write_title=" + write_title + ", write_content="
 				+ write_content + ", write_date=" + write_date + "]";
 	}
-	
+
 }

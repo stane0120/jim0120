@@ -7,6 +7,7 @@ import em.ac.kr.service.EmailServiceFactory;
 public abstract class BaseUI implements IEmailUI{
 	private Scanner sc ;
 	protected EmailService service;
+	protected String loggedInUserId; 
 	
 	public BaseUI() {
 		sc = new Scanner(System.in);
@@ -20,6 +21,9 @@ public abstract class BaseUI implements IEmailUI{
 	
 	protected int scanInt(String msg) {
 		return Integer.parseInt(scanStr(msg));
-	}
-
+	}	
+	
+	public void setLoggedInUserId(String loggedInUserId) {
+	this.loggedInUserId = loggedInUserId;
+	    }
 }

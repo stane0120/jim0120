@@ -3,12 +3,10 @@ package em.ac.kr.ui;
 import em.ac.kr.vo.EmailVO;
 
 public class LoginUI extends BaseUI {
-    @Override
+    @SuppressWarnings("unused")
+	@Override
     public void execute() throws Exception {
-    	
-        EmailUI2 start = new EmailUI2();
-        
-        System.out.println("<<< 로그인 >>>");
+     System.out.println("<<< 로그인 >>>");
         String ID = scanStr("아이디를 입력하세요 : ");
         String PW = scanStr("비밀번호를 입력하세요 : ");
         
@@ -19,9 +17,16 @@ public class LoginUI extends BaseUI {
         boolean loggedIn = service.LoginEmail(email);
         
         if (loggedIn) {
+            EmailUI2 start = new EmailUI2();
+            start.setLoggedInUserId(ID);
+            
+            GetUI getUI = new GetUI(ID);
+            SendUI sendUI = new SendUI(ID);
+            WriteUI writeUI = new WriteUI(ID);
+            
             start.execute();
         } else {
-            System.out.print("");
+            System.out.println("로그인 실패");
         }
     }
 }

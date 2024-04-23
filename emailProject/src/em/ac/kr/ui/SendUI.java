@@ -5,16 +5,23 @@ import java.util.List;
 import em.ac.kr.vo.EmailVO;
 
 public class SendUI extends BaseUI {
+    private String loggedInUserId;
+
+    public SendUI(String loggedInUserId) {
+        this.loggedInUserId = loggedInUserId;
+    }
 
     @Override
     public void execute() throws Exception {
-
-    	List<EmailVO> list = service.SendEmail();
+    	
+    	List<EmailVO> list = service.SendEmail(loggedInUserId);
+        
+        System.out.println("SendUI - Logged in User ID: " + loggedInUserId);
 
         System.out.println("------------------------------------------------------------------");
         System.out.println("\t<<< 전체 메일 조회 >>>");
         System.out.println("------------------------------------------------------------------");
-        System.out.println("글번호\t회원번호\t제목\t내용\t등록일\t\t받을 아이디");
+        System.out.println("글번호\t회원번호\t제목\t내용\t등록일\t\t아이디");
         System.out.println("------------------------------------------------------------------");
         if (list.isEmpty()) {
             System.out.println("게시글이 존재하지 않습니다");

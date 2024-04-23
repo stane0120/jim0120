@@ -19,12 +19,12 @@ public class EmailService {
 		dao.Login(email);
 	}
 	
-	public List<EmailVO> GetEmail() {
+	public List<EmailVO> GetEmail(String user_Id) {
 		List<EmailVO> list = dao.Get();
 		return list;
 	}
 	
-	public List<EmailVO> SendEmail() {
+	public List<EmailVO> SendEmail(String user_Id) {
 		List<EmailVO> list = dao.Send();
 		return list;
 	}

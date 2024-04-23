@@ -1,7 +1,6 @@
 package em.ac.kr.ui;
 
 import java.util.List;
-
 import em.ac.kr.vo.EmailVO;
 
 public class SendUI extends BaseUI {
@@ -9,7 +8,9 @@ public class SendUI extends BaseUI {
 	@Override
 	public void execute() throws Exception {
 		
-		List<EmailVO> list = service.SendEmail();
+		
+		String user_Id = null;
+		List<EmailVO> list = service.SendEmail(user_Id);
 		
 		System.out.println("----------------------------------");
 		System.out.println("\t<<< 전체 메일 조회 >>>");
