@@ -49,9 +49,13 @@ public class EmailService {
 	}
 	
 
-	public List<UserVO> HelpEmail(String HelpId) {
-		List<UserVO> list = dao.Help(HelpId);
+	public List<UserVO> HelpEmail(String helpId) {
+		List<UserVO> list = dao.Help(helpId);
 		return list;
+	}
+
+	public void End(UserVO user) {
+		dao.End(user);	
 	}
 }
 

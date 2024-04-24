@@ -7,10 +7,10 @@ public class DeleteUI extends BaseUI {
 	@Override
 	public void execute() throws Exception {
 		System.out.println("<<< 메일 삭제 서비스 >>>");
-		String write_title = scanStr("삭제할 제목을 입력하세요 : ");
+		int write_no = scanInt("삭제할 글번호를 입력하세요 : ");
 		
 		EmailVO email = new EmailVO();
-		email.setWrite_title(write_title);
+		email.setWrite_no(write_no);
 		service.Delete(email);
 		
 		System.out.println("삭제 완료.");
