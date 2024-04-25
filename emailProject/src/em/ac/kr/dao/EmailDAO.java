@@ -64,7 +64,7 @@ public class EmailDAO {
 		List<EmailVO> list = new ArrayList<>();
 
 		StringBuilder sql = new StringBuilder();
-		sql.append("select write_no, user_no, write_title, write_content");
+		sql.append("select write_no, write_title, write_content");
 		sql.append("     , to_char(write_date, 'yyyy-mm-dd') write_date, user_id ");
 		sql.append("  from write_w ");
 		sql.append("  where user_id = ? ");
@@ -75,13 +75,12 @@ public class EmailDAO {
 			ResultSet rs = pstmt.executeQuery();
 			while (rs.next()) {
 				int write_no = rs.getInt("write_no");
-				int user_no = rs.getInt("user_no");
 				String write_title = rs.getString("write_title");
 				String write_content = rs.getString("write_content");
 				String write_date = rs.getString("write_date");
 				String user_id = rs.getString("user_id");
 	            
-				EmailVO email = new EmailVO(write_no, user_no, write_title, write_content, write_date, user_id);
+				EmailVO email = new EmailVO(write_no, write_title, write_content, write_date, user_id);
 				list.add(email);
 
 			}
@@ -97,7 +96,7 @@ public class EmailDAO {
 	    List<EmailVO> list = new ArrayList<>();
 
 	    StringBuilder sql = new StringBuilder();
-	    sql.append("select write_no, user_no, write_title, write_content");
+	    sql.append("select write_no, write_title, write_content");
 	    sql.append(", to_char(write_date, 'yyyy-mm-dd') write_date, user_id ");
 	    sql.append("FROM write_r ");
 	    sql.append("where user_id != ? ");
@@ -109,13 +108,12 @@ public class EmailDAO {
 
 	        while (rs.next()) {
 	            int write_no = rs.getInt("write_no");
-	            int user_no = rs.getInt("user_no");
 	            String write_title = rs.getString("write_title");
 	            String write_content = rs.getString("write_content");
 	            String write_date = rs.getString("write_date");
 	            String user_id = rs.getString("user_id");
 	            
-	            EmailVO emailVO = new EmailVO(write_no, user_no, write_title, write_content, write_date, user_id);
+	            EmailVO emailVO = new EmailVO(write_no, write_title, write_content, write_date, user_id);
 	            list.add(emailVO);         
 	        } 
 
@@ -130,7 +128,7 @@ public class EmailDAO {
 		List<EmailVO> list = new ArrayList<>();
 
 		StringBuilder sql = new StringBuilder();
-		sql.append("select write_no, user_no, write_title, write_content");
+		sql.append("select write_no, write_title, write_content");
 		sql.append("     , to_char(write_date, 'yyyy-mm-dd') write_date, user_id");
 		sql.append("  from write_h ");
 
@@ -140,13 +138,12 @@ public class EmailDAO {
 
 			while (rs.next()) {
 				int write_no = rs.getInt("write_no");
-				int user_no = rs.getInt("user_no");
 				String write_title = rs.getString("write_title");
 				String write_content = rs.getString("write_content");
 				String write_date = rs.getString("write_date");
 				String user_id = rs.getString("user_id");
 
-				EmailVO email = new EmailVO(write_no, user_no, write_title, write_content, write_date, user_id);
+				EmailVO email = new EmailVO(write_no, write_title, write_content, write_date, user_id);
 				list.add(email);
 			}
 

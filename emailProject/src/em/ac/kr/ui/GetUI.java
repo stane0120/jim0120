@@ -15,19 +15,16 @@ public class GetUI extends BaseUI {
         
 		List<EmailVO> list = service.GetEmail(loggedInUserId);
 		
-		System.out.println("GetUI - Logged in User ID: " + loggedInUserId);
-		
 		System.out.println("------------------------------------------------------------------");
-		System.out.println("\t<<< 전체 메일 조회 >>>");
+		System.out.println("\t<<< 받은 메일 조회 >>>");
 		System.out.println("------------------------------------------------------------------");
-		System.out.println("글번호\t회원번호\t제목\t\t내용\t등록일\t\t\t아이디");
+		System.out.println("글번호\t제목\t내용\t등록일\t\t\t보낼 아이디");
 		System.out.println("------------------------------------------------------------------");
 		if(list.isEmpty()) {
 			System.out.println("게시글이 존재하지 않습니다");
 		} else {
 			for(EmailVO email : list) {
-				System.out.println(email.getWrite_no() + "\t" 
-						         + email.getUser_no() + "\t" 
+				System.out.println(email.getWrite_no() + "\t"
 								 + email.getWrite_title() + "\t"
 								 + email.getWrite_content() + "\t"
 								 + email.getWrite_date() + "\t\t"
