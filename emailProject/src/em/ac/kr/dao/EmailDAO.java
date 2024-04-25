@@ -68,6 +68,7 @@ public class EmailDAO {
 		sql.append("     , to_char(write_date, 'yyyy-mm-dd') write_date, user_id ");
 		sql.append("  from write_w ");
 		sql.append("  where user_id = ? ");
+		sql.append("order by write_no desc ");
 
 		try (Connection conn = new ConnectionFactory().getConnection();
 			PreparedStatement pstmt = conn.prepareStatement(sql.toString());) {
@@ -100,6 +101,7 @@ public class EmailDAO {
 	    sql.append(", to_char(write_date, 'yyyy-mm-dd') write_date, user_id ");
 	    sql.append("FROM write_r ");
 	    sql.append("where user_id != ? ");
+	    sql.append("order by write_no desc ");
 
 	    try (Connection conn = new ConnectionFactory().getConnection();
 	        PreparedStatement pstmt = conn.prepareStatement(sql.toString());) {
@@ -131,6 +133,7 @@ public class EmailDAO {
 		sql.append("select write_no, write_title, write_content");
 		sql.append("     , to_char(write_date, 'yyyy-mm-dd') write_date, user_id");
 		sql.append("  from write_h ");
+		sql.append("order by write_no desc ");
 
 		try (Connection conn = new ConnectionFactory().getConnection();
 			PreparedStatement pstmt = conn.prepareStatement(sql.toString());) {
