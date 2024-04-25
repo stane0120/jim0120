@@ -16,10 +16,9 @@ public class EmailVO {
 		super();
 	}
 
-	public EmailVO(int write_no, String write_title, String write_content, String write_date, String user_id) {
+	public EmailVO(String write_title, String write_content, String write_date, String user_id) {
 		super();
 		this.user_id = user_id;
-		this.write_no = write_no;
 		this.write_title = write_title;
 		this.write_content = write_content;
 		this.write_date = write_date;
