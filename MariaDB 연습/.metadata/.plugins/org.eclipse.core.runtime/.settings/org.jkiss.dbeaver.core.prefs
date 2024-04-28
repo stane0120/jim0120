@@ -1,6 +1,8 @@
 dialog.default.folder=C\:\\java-workspace\\emailProject\\sql
 driver.selector.orderBy=score
 eclipse.preferences.version=1
+org.jkiss.dbeaver.core.confirm.exit=always
 sample.database.canceled=true
 tipOfTheDayInitializer.notFirstRun=true
-ui.auto.update.check.time=1713960573203
+ui.auto.update.check.time=1714272963701
+ui.show.tip.of.the.day.on.startup=false
