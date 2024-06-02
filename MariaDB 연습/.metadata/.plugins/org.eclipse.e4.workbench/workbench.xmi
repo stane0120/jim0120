@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_0RkhsAVcEe-TRcR1rs9vJw" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.jkiss.dbeaver.ui.app.standalone" selectedElement="_0RkhsQVcEe-TRcR1rs9vJw" bindingContexts="_0RnltwVcEe-TRcR1rs9vJw">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.jkiss.dbeaver.ui.editors.sql.SQLEditor&quot; name=&quot;DB.sql&quot; tooltip=&quot;C:\java-workspace\emailProject\sql\DB.sql&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/C:/java-workspace/emailProject/sql/DB.sql&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.jkiss.dbeaver.ui.editors.sql.SQLEditor&quot; name=&quot;Script.sql&quot; tooltip=&quot;General/Scripts/Script.sql&quot;>&#xD;&#xA;&lt;persistable path=&quot;/General/Scripts/Script.sql&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.jkiss.dbeaver.ui.editors.sql.SQLEditor&quot; name=&quot;DB.sql&quot; tooltip=&quot;C:\java-workspace\emailProject\sql\DB.sql&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/C:/java-workspace/emailProject/sql/DB.sql&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.jkiss.dbeaver.defaultKeyScheme</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_0RkhsQVcEe-TRcR1rs9vJw" elementId="IDEWindow" contributorURI="platform:/plugin/org.jkiss.dbeaver.ui.app.standalone" selectedElement="_0RkhsgVcEe-TRcR1rs9vJw" label="%trimmedwindow.label.dbeaver" x="0" y="0" width="1920" height="1080">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_0RkhsQVcEe-TRcR1rs9vJw" elementId="IDEWindow" contributorURI="platform:/plugin/org.jkiss.dbeaver.ui.app.standalone" selectedElement="_0RkhsgVcEe-TRcR1rs9vJw" label="%trimmedwindow.label.dbeaver" x="1273" y="0" width="1294" height="1407">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -10,7 +10,6 @@
     <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workingSets/>"/>
     <persistedState key="aggregateWorkingSetId"/>
     <tags>topLevel</tags>
-    <tags>shellMaximized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_0RkhsgVcEe-TRcR1rs9vJw" selectedElement="_0RkhswVcEe-TRcR1rs9vJw" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_0RkhswVcEe-TRcR1rs9vJw" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_0RkhtAVcEe-TRcR1rs9vJw">
         <children xsi:type="advanced:Perspective" xmi:id="_0RkhtAVcEe-TRcR1rs9vJw" elementId="org.jkiss.dbeaver.core.perspective" selectedElement="_0RkhtQVcEe-TRcR1rs9vJw" label="DBeaver" iconURI="platform:/plugin/org.jkiss.dbeaver.ui/icons/dbeaver_perspective.png">
@@ -145,9 +144,15 @@
       <tags>categoryTag:&#xc77c;&#xbc18;</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_0RlKAwVcEe-TRcR1rs9vJw" elementId="org.eclipse.ui.editorss" selectedElement="_0RlKBAVcEe-TRcR1rs9vJw">
-      <children xsi:type="basic:PartStack" xmi:id="_0RlKBAVcEe-TRcR1rs9vJw" elementId="org.eclipse.e4.primaryDataStack">
+      <children xsi:type="basic:PartStack" xmi:id="_0RlKBAVcEe-TRcR1rs9vJw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_AyxMwB9ZEe-RSehhic3pbw">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
+        <children xsi:type="basic:Part" xmi:id="_AyxMwB9ZEe-RSehhic3pbw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="&lt;BJH> id.sql" iconURI="platform:/plugin/org.jkiss.dbeaver.model/icons/tree/script.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.jkiss.dbeaver.ui.editors.sql.SQLEditor&quot; name=&quot;id.sql&quot; partName=&quot;&amp;lt;BJH&amp;gt; id.sql&quot; title=&quot;&amp;lt;BJH&amp;gt; id.sql&quot; tooltip=&quot;Script: C:\java-workspace\MariaDB &#xc5f0;&#xc2b5;\General\Scripts\id.sql&amp;#x0A;Connection: BJH&amp;#x0A;Type: Oracle&amp;#x0A;URL: jdbc:oracle:thin:@//localhost:1521/xe&amp;#x0A;Schema: C##BJH&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; uri=&quot;file:/C:/java-workspace/MariaDB%20&#xc5f0;&#xc2b5;/General/Scripts/id.sql&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;78&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.jkiss.dbeaver.ui.editors.sql.SQLEditor</tags>
+        </children>
       </children>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_0RlKBQVcEe-TRcR1rs9vJw" elementId="org.jkiss.dbeaver.core.databaseNavigator" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Database Navigator" iconURI="platform:/plugin/org.jkiss.dbeaver.ui/icons/databases.png" tooltip="Shows database connections of active project" closeable="true">

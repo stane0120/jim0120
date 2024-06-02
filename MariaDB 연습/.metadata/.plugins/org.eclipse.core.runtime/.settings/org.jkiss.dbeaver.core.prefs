@@ -1,8 +1,9 @@
-dialog.default.folder=C\:\\java-workspace\\emailProject\\sql
+dialog.default.folder=C\:\\java-workspace\\MariaDB \uC5F0\uC2B5\\General\\Scripts
 driver.selector.orderBy=score
 eclipse.preferences.version=1
 org.jkiss.dbeaver.core.confirm.exit=always
 sample.database.canceled=true
+swt.client.browser=EDGE
 tipOfTheDayInitializer.notFirstRun=true
-ui.auto.update.check.time=1716814366670
+ui.auto.update.check.time=1717105028274
 ui.show.tip.of.the.day.on.startup=false
