@@ -34,7 +34,10 @@ CREATE SEQUENCE seq_t_board_file_no nocache;
 
 COMMIT;
 
-SELECT * FROM t_board;
+SELECT NO, title, writer, to_char(reg_date, 'yyyy-mm-dd') REG_DATE
+FROM t_board
+ORDER BY NO DESC;
+
 
 SELECT * FROM t_board_file;
 
