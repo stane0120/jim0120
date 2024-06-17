@@ -30,7 +30,7 @@ CREATE TABLE t_board_file(
 );
 
 -- 첨부파일 테이블 시퀀스 생성
-CREATE SEQUENCE seq_t_board_file_no nocache;
+CREATE SEQUENCE seq_t_board_no nocache;
 
 COMMIT;
 
@@ -62,7 +62,8 @@ CREATE TABLE T_MEMBER(
 
 COMMIT;
 
-SELECT * FROM T_MEMBER;
+SELECT * FROM T_BOARD;
+
 
 INSERT INTO T_MEMBER
 VALUES('admin', 'admin', '1234', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
